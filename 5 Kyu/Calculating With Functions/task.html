@@ -1,0 +1,23 @@
+<html>
+From <a href="https://www.codewars.com/kata/calculating-with-functions/train/python">CodeWars</a>
+<div class="markdown" id="description"><p>This time we want to write calculations using functions and get the results. Let's have a look at some examples:</p>
+<p>JavaScript:</p>
+<pre><code class="language-javascript">seven(times(five())); <span class="hljs-comment">// must return 35</span>
+four(plus(nine())); <span class="hljs-comment">// must return 13</span>
+eight(minus(three())); <span class="hljs-comment">// must return 5</span>
+six(dividedBy(two())); <span class="hljs-comment">// must return 3</span></code></pre>
+<p>Ruby:</p>
+<pre><code class="language-ruby">seven(times(five)) <span class="hljs-comment"># must return 35</span>
+four(plus(nine)) <span class="hljs-comment"># must return 13</span>
+eight(minus(three)) <span class="hljs-comment"># must return 5</span>
+six(divided_by(two)) <span class="hljs-comment"># must return 3</span></code></pre>
+<p>Requirements:</p>
+<ul>
+<li>There must be a function for each number from 0 ("zero") to 9 ("nine")</li>
+<li>There must be a function for each of the following mathematical operations: plus, minus, times, dividedBy (<code>divided_by</code> in Ruby)</li>
+<li>Each calculation consist of exactly one operation and two numbers</li>
+<li>The most outer function represents the left operand, the most inner function represents the right operand</li>
+<li>Divison should be <strong>integer division</strong>, e.g <code>eight(dividedBy(three()))</code>/<code>eight(divided_by(three))</code> should return <code>2</code>, not <code>2.666666...</code></li>
+</ul>
+</div>
+</html>

@@ -1,0 +1,21 @@
+<html>
+From <a href="https://www.codewars.com/kata/maximum-subarray-sum/train/python">CodeWars</a>
+<div class="markdown" id="description"><p>The maximum sum subarray problem consists in finding the maximum sum of a contiguous subsequence in an array or list of integers:</p>
+<pre style="display: none;"><code class="language-haskell"><span class="hljs-title">maxSequence</span> [<span class="hljs-number">-2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-5</span>, <span class="hljs-number">4</span>]
+<span class="hljs-comment">-- should be 6: [4, -1, 2, 1]</span></code></pre>
+<pre style="display: none;"><code class="language-javascript">maxSequence([<span class="hljs-number">-2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-5</span>, <span class="hljs-number">4</span>])
+<span class="hljs-comment">// should be 6: [4, -1, 2, 1]</span></code></pre>
+<pre><code class="language-python">maxSequence([<span class="hljs-number">-2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-5</span>, <span class="hljs-number">4</span>])
+<span class="hljs-comment"># should be 6: [4, -1, 2, 1]</span></code></pre>
+<pre style="display: none;"><code class="language-clojure">(<span class="hljs-name">max-sequence</span> [<span class="hljs-number">-2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-5</span>, <span class="hljs-number">4</span>])
+<span class="hljs-comment">;; should be 6: [4, -1, 2, 1]</span></code></pre>
+<pre style="display: none;"><code class="language-java">Max.sequence(<span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[]{-<span class="hljs-number">2</span>, <span class="hljs-number">1</span>, -<span class="hljs-number">3</span>, <span class="hljs-number">4</span>, -<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, -<span class="hljs-number">5</span>, <span class="hljs-number">4</span>});
+<span class="hljs-comment">// should be 6: {4, -1, 2, 1}</span></code></pre>
+<pre style="display: none;"><code class="language-c">maxSequence({<span class="hljs-number">-2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-5</span>, <span class="hljs-number">4</span>}, <span class="hljs-number">9</span>)
+<span class="hljs-comment">// should return 6, from sub-array: {4, -1, 2, 1}</span></code></pre>
+<pre style="display: none;"><code class="language-cpp">maxSequence({<span class="hljs-number">-2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">-1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">-5</span>, <span class="hljs-number">4</span>});
+<span class="hljs-comment">//should be 6: {4, -1, 2, 1}</span></code></pre>
+<p>Easy case is when the list is made up of only positive numbers and the maximum sum is the sum of the whole array. If the list is made up of only negative numbers, return 0 instead.</p>
+<p>Empty list is considered to have zero greatest sum. Note that the empty list or array is also a valid sublist/subarray.</p>
+</div>
+</html>
