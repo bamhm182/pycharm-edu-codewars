@@ -51,7 +51,7 @@
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
-                <option name="name" value="5 Kyu" />
+                <option name="name" value="8 Kyu" />
                 <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="0" />
                 <option name="taskList">
@@ -62,7 +62,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a function called that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return &lt;code&gt;true&lt;/code&gt; if the string is valid, and &lt;code&gt;false&lt;/code&gt; if it's invalid.&lt;/p&gt;&#10;&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;pre&gt;&lt;code&gt;&quot;()&quot;              =&amp;gt;  true&#10;&quot;)(()))&quot;          =&amp;gt;  false&#10;&quot;(&quot;               =&amp;gt;  false&#10;&quot;(())((()())())&quot;  =&amp;gt;  true&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;constraints&quot;&gt;Constraints&lt;/h2&gt;&#10;&lt;p&gt;&lt;code&gt;0 &amp;lt;= input.length &amp;lt;= 100&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;Along with opening (&lt;code&gt;(&lt;/code&gt;) and closing (&lt;code&gt;)&lt;/code&gt;) parenthesis, input may contain any valid ASCII characters.  Furthermore, the input string may be empty and/or not contain any parentheses at all.  Do &lt;strong&gt;not&lt;/strong&gt; treat other forms of brackets as parentheses (e.g. &lt;code&gt;[]&lt;/code&gt;, &lt;code&gt;{}&lt;/code&gt;, &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;).&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/5a3dd29055519e23ec000074/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;The first input array contains the correct answers to an exam, like [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;d&quot;]. The second one is &quot;answers&quot; array and contains student's answers. &lt;/p&gt;&#10;&lt;p&gt;The two arrays are not empty and are the same length. Return the score for this array of answers, giving +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank answer(empty string).&lt;/p&gt;&#10;&lt;p&gt;If the score &amp;lt; 0, return 0.&lt;/p&gt;&#10;&lt;p&gt;For example:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;checkExam([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;b&quot;], [&quot;a&quot;, &quot;c&quot;, &quot;b&quot;, &quot;d&quot;]) → 6&#10;checkExam([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;b&quot;], [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;,  &quot;&quot;]) → 7&#10;checkExam([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;], [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]) → 16&#10;checkExam([&quot;b&quot;, &quot;c&quot;, &quot;b&quot;, &quot;a&quot;], [&quot;&quot;,  &quot;a&quot;, &quot;a&quot;, &quot;c&quot;]) → 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -70,7 +70,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="1" />
-                      <option name="name" value="Valid Parenthesis" />
+                      <option name="name" value="Check the Exam" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -82,7 +82,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -107,7 +107,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Given a positive number n &amp;gt; 1 find the prime factor decomposition of n.&#10;The result will be a string with the following form :&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt; &quot;(p1**n1)(p2**n2)...(pk**nk)&quot;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with the p(i) in increasing order and n(i) empty if&#10;n(i) is 1.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;Example: n = 86240 should return &quot;(2**5)(5)(7**2)(11)&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/55902c5eaa8069a5b4000083/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;The company you work for has just been awarded a contract to build a payment gateway. In order to help move things along, you have volunteered to create a function that will take a float and return the amount formatting in dollars and cents.&lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;39.99 becomes $39.99&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;The rest of your team will make sure that the argument is sanitized before being passed to your function although you will need to account for adding trailing zeros if they are missing (though you won't have to worry about a dangling period).&lt;/p&gt;&#10;&lt;p&gt;Examples:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;3 needs to become $3.00&#10;&#10;3.1 needs to become $3.10&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Good luck! Your team knows they can count on you!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -115,7 +115,322 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="2" />
-                      <option name="name" value="Prime in Numbers" />
+                      <option name="name" value="Dollars and Cents" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56b1f01c247c01db92000076/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Given a string, you have to return a string in which each character (case-sensitive) is repeated once.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;double_char(&quot;String&quot;) ==&amp;gt; &quot;SSttrriinngg&quot;&#10;&#10;double_char(&quot;Hello World&quot;) ==&amp;gt; &quot;HHeelllloo  WWoorrlldd&quot;&#10;&#10;double_char(&quot;1234!_ &quot;) ==&amp;gt; &quot;11223344!!__  &quot;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;double_char(&lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;double_char(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;double_char(&lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;doubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;doubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;doubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-coffeescript&quot;&gt;doubleChar &lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt; =&lt;span class=&quot;hljs-function&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;doubleChar &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; =&lt;span class=&quot;hljs-function&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;doubleChar &lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt; =&lt;span class=&quot;hljs-function&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;doubleChar&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt; ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-title&quot;&gt;doubleChar&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-title&quot;&gt;doubleChar&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt; ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;DoubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt;) == &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;DoubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;) == &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;DoubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt;) == &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;Good Luck!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Double Char" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a function, &lt;code&gt;gooseFilter&lt;/code&gt;/&lt;code&gt;goose_filter&lt;/code&gt;/&lt;code&gt;GooseFilter&lt;/code&gt;, that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.&lt;/p&gt;&#10;&lt;p&gt;The geese are any strings in the following array, which is pre-populated in your solution:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;geese = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;var&lt;/span&gt; geese = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt;[] { &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt; };&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;geese = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;$geese = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;For example, if this array were passed as an argument:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;[] {&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;Your function would return the following array:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;[] {&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The elements in the returned array should be in the same order as in the initial array passed to your function, albeit with the 'geese' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="4" />
+                      <option name="name" value="Filter Out the Geese" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Suzuki is a monk who climbs a large staircase to the monastery as part of a ritual. Some days he climbs more stairs than others depending on the number of students he must train in the morning. He is curious how many stairs might be climbed over the next 20 years and has spent a year marking down his daily progress. &lt;/p&gt;&#10;&lt;p&gt;The sum of all the stairs logged in a year will be used for estimating the number he might climb in 20. &lt;/p&gt;&#10;&lt;p&gt;&lt;u&gt;20_year_estimate = one_year_total * 20&lt;/u&gt;&lt;/p&gt;&#10;&lt;p&gt;You will receive the following data structure representing the stairs Suzuki logged in a year. You will have all data for the entire year so regardless of how it is logged the problem should be simple to solve.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;stairs = [sunday,monday,tuesday,wednesday,thursday,friday,saturday]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure your solution takes into account all of the nesting within the stairs array.&lt;/p&gt;&#10;&lt;p&gt;Each weekday in the stairs array is an array.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;sunday = [6737, 7244, 5776, 9826, 7057, 9247, 5842, 5484, 6543, 5153, 6832, 8274, 7148, 6152, 5940, 8040, 9174, 7555, 7682, 5252, 8793, 8837, 7320, 8478, 6063, 5751, 9716, 5085, 7315, 7859, 6628, 5425, 6331, 7097, 6249, 8381, 5936, 8496, 6934, 8347, 7036, 6421, 6510, 5821, 8602, 5312, 7836, 8032, 9871, 5990, 6309, 7825]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Your function should return the 20 year estimate of the stairs climbed using the formula above. &lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="5" />
+                      <option name="name" value="How Many Stairs Will Suzuki Climb in 20 Years" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/regex-count-lowercase-letters/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Your task is simply to count the total number of lowercase letters in a string.&lt;/p&gt;&#10;&lt;h2&gt;Examples&lt;/h2&gt;&#10;```javascript&#10;lowercaseCount(&quot;abc&quot;); ===&amp;gt; 3&#10;&#10;&lt;p&gt;lowercaseCount(&quot;abcABC123&quot;); ===&amp;gt; 3&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;abcABC123!@€£#$%^&amp;amp;*()_-+=}{[]|':;?/&amp;gt;.&amp;lt;,~&quot;); ===&amp;gt; 3&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;&quot;); ===&amp;gt; 0;&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;ABC123!@€£#$%^&amp;amp;*()_-+=}{[]|':;?/&amp;gt;.&amp;lt;,~&quot;); ===&amp;gt; 0&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;abcdefghijklmnopqrstuvwxyz&quot;); ===&amp;gt; 26&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;```csharp&#10;LowercaseCountCheck(&quot;abc&quot;) == 3&#10;LowercaseCountCheck(&quot;abcABC123&quot;) == 3&#10;LowercaseCountCheck(&quot;abcABC123!@€£#$%^&amp;amp;*()_-+=}{[]|\':;?/&amp;gt;.&amp;lt;,~&quot;&quot;) == 3&#10;LowercaseCountCheck(&quot;&quot;) == 0&#10;LowercaseCountCheck(&quot;ABC123!@€£#$%^&amp;amp;*()_-+=}{[]|\':;?/&amp;gt;.&amp;lt;,~&quot;&quot;) == 0&#10;LowercaseCountCheck(&quot;abcdefghijklmnopqrstuvwxyz&quot;) == 26&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="6" />
+                      <option name="name" value="Regex Count Lowercase Letters" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;&quot;https://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a function that rearranges an integer into its largest possible value. &lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;superSize(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;//654321&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 510&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;Kata.SuperSize(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;//654321&lt;/span&gt;&#10;Kata.SuperSize(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 510&lt;/span&gt;&#10;Kata.SuperSize(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;super_size(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;# 654321&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;)    &lt;span class=&quot;hljs-comment&quot;&gt;# 510&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;)     &lt;span class=&quot;hljs-comment&quot;&gt;# 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;super_size(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;# 654321&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;)    &lt;span class=&quot;hljs-comment&quot;&gt;# 510&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;)     &lt;span class=&quot;hljs-comment&quot;&gt;# 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;superSize&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;654321&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;superSize&lt;/span&gt;    &lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt; `shouldBe`    &lt;span class=&quot;hljs-number&quot;&gt;510&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;superSize&lt;/span&gt;     &lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt; `shouldBe`     &lt;span class=&quot;hljs-number&quot;&gt;21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-coffeescript&quot;&gt;superSize(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-regexp&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;654321&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;) &lt;span class=&quot;hljs-regexp&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;510&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;) &lt;span class=&quot;hljs-regexp&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;If the argument passed through is single digit or is already the maximum possible integer, your function should simply return it.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="7" />
+                      <option name="name" value="SUPERSIZE ME... or rather, this integer!" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56a3f08aa9a6cc9b75000023/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a simple regex to validate a username. Allowed characters are:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;lowercase letters,&lt;/li&gt;&#10;&lt;li&gt;numbers,&lt;/li&gt;&#10;&lt;li&gt;underscore&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Length should be between 4 and 16 characters (both included).&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="8" />
+                      <option name="name" value="Simple Validation of a Username with Regex" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/572b6b2772a38bc1e700007a/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;You'll be given a string, and have to return the total of all the unicode characters as an int. Should be able to handle any characters sent at it. &lt;/p&gt;&#10;&lt;p&gt;examples:&lt;/p&gt;&#10;&lt;p&gt;uniTotal(&quot;a&quot;) == 97&#10;uniTotal(&quot;aaa&quot;) == 291&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="9" />
+                      <option name="name" value="Unicode Total" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -154,154 +469,6 @@
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="2" />
-                <option name="name" value="6 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
-                <option name="taskList">
-                  <list>
-                    <EduTask>
-                      <option name="additionalFiles">
-                        <map />
-                      </option>
-                      <option name="customPresentableName" />
-                      <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/count-the-smiley-faces/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;&lt;font size=&quot;5&quot;&gt;Description:&lt;/font&gt;&lt;br&gt;&#10;Given an array (arr) as an argument complete the function &lt;code&gt;countSmileys&lt;/code&gt; that should return the total number of smiling faces.&lt;br&gt;&#10;&lt;font size=&quot;4&quot;&gt;Rules for a smiling face:&lt;/font&gt;&lt;br&gt;&#10;-Each smiley face must contain a valid pair of eyes.&#10;Eyes can be marked as &lt;code&gt;:&lt;/code&gt; or &lt;code&gt;;&lt;/code&gt;&lt;br&gt;&#10;-A smiley face can have a nose but it does not have to.&#10;Valid characters for a nose are &lt;code&gt;-&lt;/code&gt; or &lt;code&gt;~&lt;/code&gt;&lt;br&gt;&#10;-Every smiling face must have a smiling mouth that should be marked with either&#10;&lt;code&gt;)&lt;/code&gt; or &lt;code&gt;D&lt;/code&gt;.&lt;br&gt;&#10;No additional characters are allowed except for those mentioned.&lt;br&gt;&#10;&lt;strong&gt;Valid smiley face examples:&lt;/strong&gt;&lt;br&gt;&#10;&lt;code&gt;:) :D ;-D :~)&lt;/code&gt;&lt;br&gt;&#10;&lt;strong&gt;Invalid smiley faces:&lt;/strong&gt;&lt;br&gt;&#10;&lt;code&gt;;( :&amp;gt; :} :]&lt;/code&gt;&#10;&lt;br&gt;&lt;br&gt;&#10;&lt;strong&gt;Example cases:&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;countSmileys([&lt;span class=&quot;hljs-string&quot;&gt;':)'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';('&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';}'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':-D'&lt;/span&gt;]);       &lt;span class=&quot;hljs-comment&quot;&gt;// should return 2;&lt;/span&gt;&#10;countSmileys([&lt;span class=&quot;hljs-string&quot;&gt;';D'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':-('&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':-)'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';~)'&lt;/span&gt;]);     &lt;span class=&quot;hljs-comment&quot;&gt;// should return 3;&lt;/span&gt;&#10;countSmileys([&lt;span class=&quot;hljs-string&quot;&gt;';]'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':['&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';*'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':$'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';-D'&lt;/span&gt;]); &lt;span class=&quot;hljs-comment&quot;&gt;// should return 1;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;br&gt;&#10;&lt;b&gt;Note:&lt;/b&gt; In case of an empty array return 0. You will not be tested with invalid input (input will always be an array). Order of the face (eyes, nose, mouth) elements will always be the same&#10;&lt;h3&gt;Happy coding!&lt;/h3&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
-                      <option name="feedbackLink">
-                        <FeedbackLink>
-                          <option name="link" />
-                          <option name="type" value="STEPIK" />
-                        </FeedbackLink>
-                      </option>
-                      <option name="index" value="1" />
-                      <option name="name" value="Count the Smiley Faces" />
-                      <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
-                      <option name="taskFiles">
-                        <map>
-                          <entry key="task.py">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
-                                <option name="trackChanges" value="true" />
-                                <option name="trackLengths" value="true" />
-                                <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
-                    </EduTask>
-                    <EduTask>
-                      <option name="additionalFiles">
-                        <map />
-                      </option>
-                      <option name="customPresentableName" />
-                      <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;The goal of this exercise is to convert a string to a new string where each character in the new string is &lt;code&gt;&quot;(&quot;&lt;/code&gt; if that character appears only once in the original string, or &lt;code&gt;&quot;)&quot;&lt;/code&gt; if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.&lt;/p&gt;&#10;&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;pre&gt;&lt;code&gt;&quot;din&quot;      =&amp;gt;  &quot;(((&quot;&#10;&quot;recede&quot;   =&amp;gt;  &quot;()()()&quot;&#10;&quot;Success&quot;  =&amp;gt;  &quot;)())())&quot;&#10;&quot;(( @&quot;     =&amp;gt;  &quot;))((&quot; &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;Assertion messages may be unclear about what they display in some languages. If you read &lt;code&gt;&quot;...It Should encode XXX&quot;&lt;/code&gt;, the &lt;code&gt;&quot;XXX&quot;&lt;/code&gt; is the expected result, not the input!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
-                      <option name="feedbackLink">
-                        <FeedbackLink>
-                          <option name="link" />
-                          <option name="type" value="STEPIK" />
-                        </FeedbackLink>
-                      </option>
-                      <option name="index" value="2" />
-                      <option name="name" value="Duplicate Encoder" />
-                      <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
-                      <option name="taskFiles">
-                        <map>
-                          <entry key="task.py">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
-                                <option name="trackChanges" value="true" />
-                                <option name="trackLengths" value="true" />
-                                <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
-                    </EduTask>
-                    <EduTask>
-                      <option name="additionalFiles">
-                        <map />
-                      </option>
-                      <option name="customPresentableName" />
-                      <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56af1a20509ce5b9b000001e/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;A traveling salesman has to visit clients. He got each client's address e.g. &lt;code&gt;&quot;432 Main Long Road St. Louisville OH 43071&quot;&lt;/code&gt; as a list.&lt;/p&gt;&#10;&lt;p&gt;The basic zipcode format usually consists of two capital letters followed by a white space and five digits.&#10;The list of clients to visit was given as a string of all addresses, each separated from the others by a comma, e.g. :&lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;&quot;123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432&quot;&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;To ease his travel he wants to group the list by zipcode.&lt;/p&gt;&#10;&lt;h1 id=&quot;task&quot;&gt;Task&lt;/h1&gt;&#10;&lt;p&gt;The function &lt;code&gt;travel&lt;/code&gt; will take two parameters &lt;code&gt;r&lt;/code&gt; (addresses' list of all clients' as a string) and &lt;code&gt;zipcode&lt;/code&gt; and returns a string in the following format:&lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;zipcode:street and town,street and town,.../house number,house number,...&lt;/code&gt; &lt;/p&gt;&#10;&lt;p&gt;The street numbers must be in the same order as the streets where they belong.&lt;/p&gt;&#10;&lt;p&gt;If a given zipcode doesn't exist in the list of clients' addresses return &lt;code&gt;&quot;zipcode:/&quot;&lt;/code&gt;&lt;/p&gt;&#10;&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;&#10;&lt;pre&gt;&lt;code&gt;r = &quot;123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432&quot;&#10;&#10;travel(r, &quot;OH 43071&quot;) --&amp;gt; &quot;OH 43071:Main Street St. Louisville,Main Long Road St. Louisville/123,432&quot;&#10;&#10;travel(r, &quot;NY 56432&quot;) --&amp;gt; &quot;NY 56432:High Street Pollocksville/786&quot;&#10;&#10;travel(r, &quot;NY 5643&quot;) --&amp;gt; &quot;NY 5643:/&quot;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;note-for-elixir&quot;&gt;Note for Elixir:&lt;/h1&gt;&#10;&lt;p&gt;In Elixir the empty addresses' input is an empty &lt;em&gt;list&lt;/em&gt;, not an empty string.&lt;/p&gt;&#10;&lt;h1 id=&quot;note&quot;&gt;Note:&lt;/h1&gt;&#10;&lt;p&gt;You can see a few addresses and zipcodes in the test cases.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
-                      <option name="feedbackLink">
-                        <FeedbackLink>
-                          <option name="link" />
-                          <option name="type" value="STEPIK" />
-                        </FeedbackLink>
-                      </option>
-                      <option name="index" value="3" />
-                      <option name="name" value="Salesman's Travel" />
-                      <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
-                      <option name="taskFiles">
-                        <map>
-                          <entry key="task.py">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="false" />
-                                <option name="name" value="task.py" />
-                                <option name="text" value="# TODO: type solution here&#10;" />
-                                <option name="trackChanges" value="true" />
-                                <option name="trackLengths" value="true" />
-                                <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="testsText">
-                        <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
-                    </EduTask>
-                  </list>
-                </option>
-                <option name="unitId" value="0" />
-              </Lesson>
-              <Lesson>
-                <option name="customPresentableName" />
-                <option name="id" value="0" />
-                <option name="index" value="3" />
                 <option name="name" value="7 Kyu" />
                 <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="0" />
@@ -854,8 +1021,8 @@
               <Lesson>
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
-                <option name="index" value="4" />
-                <option name="name" value="8 Kyu" />
+                <option name="index" value="3" />
+                <option name="name" value="6 Kyu" />
                 <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="0" />
                 <option name="taskList">
@@ -866,7 +1033,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/5a3dd29055519e23ec000074/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;The first input array contains the correct answers to an exam, like [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;d&quot;]. The second one is &quot;answers&quot; array and contains student's answers. &lt;/p&gt;&#10;&lt;p&gt;The two arrays are not empty and are the same length. Return the score for this array of answers, giving +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank answer(empty string).&lt;/p&gt;&#10;&lt;p&gt;If the score &amp;lt; 0, return 0.&lt;/p&gt;&#10;&lt;p&gt;For example:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;checkExam([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;b&quot;], [&quot;a&quot;, &quot;c&quot;, &quot;b&quot;, &quot;d&quot;]) → 6&#10;checkExam([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;b&quot;], [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;,  &quot;&quot;]) → 7&#10;checkExam([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;], [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]) → 16&#10;checkExam([&quot;b&quot;, &quot;c&quot;, &quot;b&quot;, &quot;a&quot;], [&quot;&quot;,  &quot;a&quot;, &quot;a&quot;, &quot;c&quot;]) → 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/count-the-smiley-faces/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;&lt;font size=&quot;5&quot;&gt;Description:&lt;/font&gt;&lt;br&gt;&#10;Given an array (arr) as an argument complete the function &lt;code&gt;countSmileys&lt;/code&gt; that should return the total number of smiling faces.&lt;br&gt;&#10;&lt;font size=&quot;4&quot;&gt;Rules for a smiling face:&lt;/font&gt;&lt;br&gt;&#10;-Each smiley face must contain a valid pair of eyes.&#10;Eyes can be marked as &lt;code&gt;:&lt;/code&gt; or &lt;code&gt;;&lt;/code&gt;&lt;br&gt;&#10;-A smiley face can have a nose but it does not have to.&#10;Valid characters for a nose are &lt;code&gt;-&lt;/code&gt; or &lt;code&gt;~&lt;/code&gt;&lt;br&gt;&#10;-Every smiling face must have a smiling mouth that should be marked with either&#10;&lt;code&gt;)&lt;/code&gt; or &lt;code&gt;D&lt;/code&gt;.&lt;br&gt;&#10;No additional characters are allowed except for those mentioned.&lt;br&gt;&#10;&lt;strong&gt;Valid smiley face examples:&lt;/strong&gt;&lt;br&gt;&#10;&lt;code&gt;:) :D ;-D :~)&lt;/code&gt;&lt;br&gt;&#10;&lt;strong&gt;Invalid smiley faces:&lt;/strong&gt;&lt;br&gt;&#10;&lt;code&gt;;( :&amp;gt; :} :]&lt;/code&gt;&#10;&lt;br&gt;&lt;br&gt;&#10;&lt;strong&gt;Example cases:&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;countSmileys([&lt;span class=&quot;hljs-string&quot;&gt;':)'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';('&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';}'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':-D'&lt;/span&gt;]);       &lt;span class=&quot;hljs-comment&quot;&gt;// should return 2;&lt;/span&gt;&#10;countSmileys([&lt;span class=&quot;hljs-string&quot;&gt;';D'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':-('&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':-)'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';~)'&lt;/span&gt;]);     &lt;span class=&quot;hljs-comment&quot;&gt;// should return 3;&lt;/span&gt;&#10;countSmileys([&lt;span class=&quot;hljs-string&quot;&gt;';]'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':['&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';*'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;':$'&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;';-D'&lt;/span&gt;]); &lt;span class=&quot;hljs-comment&quot;&gt;// should return 1;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;br&gt;&#10;&lt;b&gt;Note:&lt;/b&gt; In case of an empty array return 0. You will not be tested with invalid input (input will always be an array). Order of the face (eyes, nose, mouth) elements will always be the same&#10;&lt;h3&gt;Happy coding!&lt;/h3&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -874,7 +1041,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="1" />
-                      <option name="name" value="Check the Exam" />
+                      <option name="name" value="Count the Smiley Faces" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -911,7 +1078,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/55902c5eaa8069a5b4000083/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;The company you work for has just been awarded a contract to build a payment gateway. In order to help move things along, you have volunteered to create a function that will take a float and return the amount formatting in dollars and cents.&lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;39.99 becomes $39.99&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;The rest of your team will make sure that the argument is sanitized before being passed to your function although you will need to account for adding trailing zeros if they are missing (though you won't have to worry about a dangling period).&lt;/p&gt;&#10;&lt;p&gt;Examples:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;3 needs to become $3.00&#10;&#10;3.1 needs to become $3.10&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Good luck! Your team knows they can count on you!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;The goal of this exercise is to convert a string to a new string where each character in the new string is &lt;code&gt;&quot;(&quot;&lt;/code&gt; if that character appears only once in the original string, or &lt;code&gt;&quot;)&quot;&lt;/code&gt; if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.&lt;/p&gt;&#10;&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;pre&gt;&lt;code&gt;&quot;din&quot;      =&amp;gt;  &quot;(((&quot;&#10;&quot;recede&quot;   =&amp;gt;  &quot;()()()&quot;&#10;&quot;Success&quot;  =&amp;gt;  &quot;)())())&quot;&#10;&quot;(( @&quot;     =&amp;gt;  &quot;))((&quot; &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;Assertion messages may be unclear about what they display in some languages. If you read &lt;code&gt;&quot;...It Should encode XXX&quot;&lt;/code&gt;, the &lt;code&gt;&quot;XXX&quot;&lt;/code&gt; is the expected result, not the input!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -919,7 +1086,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="2" />
-                      <option name="name" value="Dollars and Cents" />
+                      <option name="name" value="Duplicate Encoder" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -956,7 +1123,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56b1f01c247c01db92000076/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Given a string, you have to return a string in which each character (case-sensitive) is repeated once.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;double_char(&quot;String&quot;) ==&amp;gt; &quot;SSttrriinngg&quot;&#10;&#10;double_char(&quot;Hello World&quot;) ==&amp;gt; &quot;HHeelllloo  WWoorrlldd&quot;&#10;&#10;double_char(&quot;1234!_ &quot;) ==&amp;gt; &quot;11223344!!__  &quot;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;double_char(&lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;double_char(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;double_char(&lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;doubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;doubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;doubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt;) ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-coffeescript&quot;&gt;doubleChar &lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt; =&lt;span class=&quot;hljs-function&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;doubleChar &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; =&lt;span class=&quot;hljs-function&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;doubleChar &lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt; =&lt;span class=&quot;hljs-function&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;doubleChar&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt; ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-title&quot;&gt;doubleChar&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-title&quot;&gt;doubleChar&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt; ==&amp;gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;DoubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;String&quot;&lt;/span&gt;) == &lt;span class=&quot;hljs-string&quot;&gt;&quot;SSttrriinngg&quot;&lt;/span&gt;&#10;&#10;DoubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;) == &lt;span class=&quot;hljs-string&quot;&gt;&quot;HHeelllloo  WWoorrlldd&quot;&lt;/span&gt;&#10;&#10;DoubleChar(&lt;span class=&quot;hljs-string&quot;&gt;&quot;1234!_ &quot;&lt;/span&gt;) == &lt;span class=&quot;hljs-string&quot;&gt;&quot;11223344!!__  &quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;Good Luck!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56af1a20509ce5b9b000001e/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;A traveling salesman has to visit clients. He got each client's address e.g. &lt;code&gt;&quot;432 Main Long Road St. Louisville OH 43071&quot;&lt;/code&gt; as a list.&lt;/p&gt;&#10;&lt;p&gt;The basic zipcode format usually consists of two capital letters followed by a white space and five digits.&#10;The list of clients to visit was given as a string of all addresses, each separated from the others by a comma, e.g. :&lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;&quot;123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432&quot;&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;To ease his travel he wants to group the list by zipcode.&lt;/p&gt;&#10;&lt;h1 id=&quot;task&quot;&gt;Task&lt;/h1&gt;&#10;&lt;p&gt;The function &lt;code&gt;travel&lt;/code&gt; will take two parameters &lt;code&gt;r&lt;/code&gt; (addresses' list of all clients' as a string) and &lt;code&gt;zipcode&lt;/code&gt; and returns a string in the following format:&lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;zipcode:street and town,street and town,.../house number,house number,...&lt;/code&gt; &lt;/p&gt;&#10;&lt;p&gt;The street numbers must be in the same order as the streets where they belong.&lt;/p&gt;&#10;&lt;p&gt;If a given zipcode doesn't exist in the list of clients' addresses return &lt;code&gt;&quot;zipcode:/&quot;&lt;/code&gt;&lt;/p&gt;&#10;&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;&#10;&lt;pre&gt;&lt;code&gt;r = &quot;123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432&quot;&#10;&#10;travel(r, &quot;OH 43071&quot;) --&amp;gt; &quot;OH 43071:Main Street St. Louisville,Main Long Road St. Louisville/123,432&quot;&#10;&#10;travel(r, &quot;NY 56432&quot;) --&amp;gt; &quot;NY 56432:High Street Pollocksville/786&quot;&#10;&#10;travel(r, &quot;NY 5643&quot;) --&amp;gt; &quot;NY 5643:/&quot;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;note-for-elixir&quot;&gt;Note for Elixir:&lt;/h1&gt;&#10;&lt;p&gt;In Elixir the empty addresses' input is an empty &lt;em&gt;list&lt;/em&gt;, not an empty string.&lt;/p&gt;&#10;&lt;h1 id=&quot;note&quot;&gt;Note:&lt;/h1&gt;&#10;&lt;p&gt;You can see a few addresses and zipcodes in the test cases.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -964,7 +1131,213 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="3" />
-                      <option name="name" value="Double Char" />
+                      <option name="name" value="Salesman's Travel" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="4" />
+                <option name="name" value="5 Kyu" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a function called that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return &lt;code&gt;true&lt;/code&gt; if the string is valid, and &lt;code&gt;false&lt;/code&gt; if it's invalid.&lt;/p&gt;&#10;&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;pre&gt;&lt;code&gt;&quot;()&quot;              =&amp;gt;  true&#10;&quot;)(()))&quot;          =&amp;gt;  false&#10;&quot;(&quot;               =&amp;gt;  false&#10;&quot;(())((()())())&quot;  =&amp;gt;  true&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;constraints&quot;&gt;Constraints&lt;/h2&gt;&#10;&lt;p&gt;&lt;code&gt;0 &amp;lt;= input.length &amp;lt;= 100&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;Along with opening (&lt;code&gt;(&lt;/code&gt;) and closing (&lt;code&gt;)&lt;/code&gt;) parenthesis, input may contain any valid ASCII characters.  Furthermore, the input string may be empty and/or not contain any parentheses at all.  Do &lt;strong&gt;not&lt;/strong&gt; treat other forms of brackets as parentheses (e.g. &lt;code&gt;[]&lt;/code&gt;, &lt;code&gt;{}&lt;/code&gt;, &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;).&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Valid Parenthesis" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/54d512e62a5e54c96200019e/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Given a positive number n &amp;gt; 1 find the prime factor decomposition of n.&#10;The result will be a string with the following form :&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt; &quot;(p1**n1)(p2**n2)...(pk**nk)&quot;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;with the p(i) in increasing order and n(i) empty if&#10;n(i) is 1.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;Example: n = 86240 should return &quot;(2**5)(5)(7**2)(11)&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Prime in Numbers" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="5" />
+                <option name="name" value="4 Kyu" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/path-finder-number-1-can-you-reach-the-exit/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;h2 id=&quot;task&quot;&gt;Task&lt;/h2&gt;&#10;&lt;p&gt;You are at position [0, 0] in maze NxN and you can &lt;strong&gt;only&lt;/strong&gt; move in one of the four cardinal directions (i.e. North, East, South, West).  Return &lt;code&gt;true&lt;/code&gt; if you can reach position [N-1, N-1] or &lt;code&gt;false&lt;/code&gt; otherwise.&lt;/p&gt;&#10;&lt;p&gt;Empty positions are marked &lt;code&gt;.&lt;/code&gt;. Walls are marked &lt;code&gt;W&lt;/code&gt;. Start and exit positions are empty in all test cases.&lt;/p&gt;&#10;&lt;h2 id=&quot;path-finder-series&quot;&gt;Path Finder Series:&lt;/h2&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5765870e190b1472ec0022a2&quot; target=&quot;_blank&quot;&gt;#1: can you reach the exit?&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/57658bfa28ed87ecfa00058a&quot; target=&quot;_blank&quot;&gt;#2: shortest path&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/576986639772456f6f00030c&quot; target=&quot;_blank&quot;&gt;#3: the Alpinist&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5a0573c446d8435b8e00009f&quot; target=&quot;_blank&quot;&gt;#4: where are you?&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Path Finder #1 - Can You Reach the Exit" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/57658bfa28ed87ecfa00058a/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;h2 id=&quot;task&quot;&gt;Task&lt;/h2&gt;&#10;&lt;p&gt;You are at position &lt;code&gt;[0, 0]&lt;/code&gt; in maze NxN and you can &lt;strong&gt;only&lt;/strong&gt; move in one of the four cardinal directions (i.e. North, East, South, West). Return the minimal number of steps to exit position &lt;code&gt;[N-1, N-1]&lt;/code&gt; &lt;em&gt;if&lt;/em&gt; it is possible to reach the exit from the starting position.  Otherwise, return &lt;code&gt;false&lt;/code&gt; in &lt;strong&gt;JavaScript&lt;/strong&gt;/&lt;strong&gt;Python&lt;/strong&gt; and &lt;code&gt;-1&lt;/code&gt; in &lt;strong&gt;C++&lt;/strong&gt;/&lt;strong&gt;C#&lt;/strong&gt;/&lt;strong&gt;Java&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;p&gt;Empty positions are marked &lt;code&gt;.&lt;/code&gt;.  Walls are marked &lt;code&gt;W&lt;/code&gt;.  Start and exit positions are guaranteed to be empty in all test cases.&lt;/p&gt;&#10;&lt;h2 id=&quot;path-finder-series&quot;&gt;Path Finder Series:&lt;/h2&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5765870e190b1472ec0022a2&quot; target=&quot;_blank&quot;&gt;#1: can you reach the exit?&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/57658bfa28ed87ecfa00058a&quot; target=&quot;_blank&quot;&gt;#2: shortest path&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/576986639772456f6f00030c&quot; target=&quot;_blank&quot;&gt;#3: the Alpinist&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5a0573c446d8435b8e00009f&quot; target=&quot;_blank&quot;&gt;#4: where are you?&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Path Finder #2 - Shortest Path" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -1001,7 +1374,52 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a function, &lt;code&gt;gooseFilter&lt;/code&gt;/&lt;code&gt;goose_filter&lt;/code&gt;/&lt;code&gt;GooseFilter&lt;/code&gt;, that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.&lt;/p&gt;&#10;&lt;p&gt;The geese are any strings in the following array, which is pre-populated in your solution:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;geese = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;var&lt;/span&gt; geese = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt;[] { &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt; };&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;geese = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;$geese = [&lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Roman Tufted&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Steinbacher&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;For example, if this array were passed as an argument:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;[] {&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;African&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Pilgrim&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Toulouse&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;Your function would return the following array:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;string&lt;/span&gt;[] {&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Mallard&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hook Bill&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Crested&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Blue Swedish&quot;&lt;/span&gt;]&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The elements in the returned array should be in the same order as in the initial array passed to your function, albeit with the 'geese' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/path-finder-number-4-where-are-you/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Hey, Path Finder, where are you?&lt;/p&gt;&#10;&lt;h2 id=&quot;path-finder-series&quot;&gt;Path Finder Series:&lt;/h2&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5765870e190b1472ec0022a2&quot; target=&quot;_blank&quot;&gt;#1: can you reach the exit?&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/57658bfa28ed87ecfa00058a&quot; target=&quot;_blank&quot;&gt;#2: shortest path&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/576986639772456f6f00030c&quot; target=&quot;_blank&quot;&gt;#3: the Alpinist&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5a0573c446d8435b8e00009f&quot; target=&quot;_blank&quot;&gt;#4: where are you?&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Path Finder #4 - Where Are You" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/bribe-the-guards-of-the-crown-jewels/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;You are in the capital of Far, Far Away Land, and you have heard about this museum where the royal family's crown jewels are on display. Before you visit the museum, a friend tells you to bring some extra money that you'll need to bribe the guards. You see, he says, the crown jewels are in one of 10 rooms numbered from 1 to 10. The doors to these room are kept closed, and each is guarded by a very intimidating guard.&lt;/p&gt;&#10;&lt;p&gt;For security purposes, the jewels are moved every night to a different room. To find out which room they are in, you'll have to ask one of the guards. But first you have to pay him a bribe. After paying him:&lt;/p&gt;&#10;&lt;ol&gt;&#10;&lt;li&gt;If the jewels are behind the door he's guarding, he'll let you in.&lt;/li&gt;&#10;&lt;li&gt;Otherwise, he'll point you in the direction of the correct room by telling you if the room has a higher or lower room number than the room he's guarding.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&lt;p&gt;The guards have a special rank system, and, depending on rank, the size of the bribe that you'll need to pay to each guard may vary. For example, you may have to pay $1 to the guard at room 1, $2 to the guard at room 2, and so on, up to $10 to the guard at room 10. The bribe amounts are specified by an array/list sorted by room number in ascending order. Hence, in this example, the bribes are given by &lt;code&gt;[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;The problem you need to solve is to determine the minimum amount you may need &lt;em&gt;in the worst case&lt;/em&gt; to get into the room with the crown jewels. As a seasoned programmer, you might try doing a binary search. Let's assume that the bribes are as specified in the example above. You first go to the guard standing in front of room 5, and pay him $5. In the worst case the crown jewels are in room 10 and you'll end up paying: $5 + $8 + $9 + $10 = $32. It turns out that a regular binary search is not optimal in this case. You are better off if you first go to room 7. In the worst case the guard will direct you to the right(i.e., higher numbered rooms) and then you go to room 9. Again, in the worst case the guard will direct you to the right, and you go to room 10. In all, you'll have to pay $7 + $9 + $10 = $26. You can easily verify that if the first guard (at room 7) had directed you to the left, you would have ended up paying less than $26. So for this problem, the maximum you will need to pay is $26. There are no other solutions where you would need less in the worst case, so 26 is the solution to this problem instance. &lt;/p&gt;&#10;&lt;p&gt;You are asked to define function &lt;code&gt;least_bribes(bribes)&lt;/code&gt; that takes as argument an array that contains the bribes that each guard will accept in ascending room number and returns the minumum amount you'll need to spend on bribes &lt;em&gt;in the worst case&lt;/em&gt;. The problem is not limited to 10 rooms only, so the array &lt;code&gt;bribes&lt;/code&gt; can be of any length greater or equal to 1. Your code will have to handle arrays up to 100 in length and bribes between $1 and $1000.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1009,7 +1427,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="4" />
-                      <option name="name" value="Filter Out the Geese" />
+                      <option name="name" value="Bribe the Guards of the Crown Jewels" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -1046,7 +1464,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56fc55cd1f5a93d68a001d4e/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Suzuki is a monk who climbs a large staircase to the monastery as part of a ritual. Some days he climbs more stairs than others depending on the number of students he must train in the morning. He is curious how many stairs might be climbed over the next 20 years and has spent a year marking down his daily progress. &lt;/p&gt;&#10;&lt;p&gt;The sum of all the stairs logged in a year will be used for estimating the number he might climb in 20. &lt;/p&gt;&#10;&lt;p&gt;&lt;u&gt;20_year_estimate = one_year_total * 20&lt;/u&gt;&lt;/p&gt;&#10;&lt;p&gt;You will receive the following data structure representing the stairs Suzuki logged in a year. You will have all data for the entire year so regardless of how it is logged the problem should be simple to solve.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;stairs = [sunday,monday,tuesday,wednesday,thursday,friday,saturday]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure your solution takes into account all of the nesting within the stairs array.&lt;/p&gt;&#10;&lt;p&gt;Each weekday in the stairs array is an array.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;sunday = [6737, 7244, 5776, 9826, 7057, 9247, 5842, 5484, 6543, 5153, 6832, 8274, 7148, 6152, 5940, 8040, 9174, 7555, 7682, 5252, 8793, 8837, 7320, 8478, 6063, 5751, 9716, 5085, 7315, 7859, 6628, 5425, 6331, 7097, 6249, 8381, 5936, 8496, 6934, 8347, 7036, 6421, 6510, 5821, 8602, 5312, 7836, 8032, 9871, 5990, 6309, 7825]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Your function should return the 20 year estimate of the stairs climbed using the formula above. &lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/total-increasing-or-decreasing-numbers-up-to-a-power-of-10/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Let's define &lt;code&gt;increasing&lt;/code&gt; numbers as the numbers whose digits, read from left to right, are never less than the previous ones: 234559 is an example of increasing number.&lt;/p&gt;&#10;&lt;p&gt;Conversely, &lt;code&gt;decreasing&lt;/code&gt; numbers have all the digits read from left to right so that no digits is bigger than the previous one: 97732 is an example of decreasing number.&lt;/p&gt;&#10;&lt;p&gt;You do not need to be the next Gauss to figure that all numbers with 1 or 2 digits are either increasing or decreasing: 00, 01, 02, ..., 98, 99 are all belonging to one of this categories (if not both, like 22 or 55): 101 is indeed the first number which does NOT fall into either of the categories. Same goes for all the numbers up to 109, while 110 is again a decreasing number.&lt;/p&gt;&#10;&lt;p&gt;Now your task is rather easy to declare (a bit less to perform): you have to build a function to return the total occurrences of all the increasing or decreasing numbers &lt;em&gt;below&lt;/em&gt; 10 raised to the xth power (x will always be &amp;gt;= 0).&lt;/p&gt;&#10;&lt;p&gt;To give you a starting point, there are a grand total of increasing and decreasing numbers as shown in the table:&lt;/p&gt;&#10;&lt;p&gt;|Total  | Below&#10;|---------------&#10;|1      | 1&#10;|10     | 10&#10;|100    | 100&#10;|475    | 1000&#10;|1675   | 10000&#10;|4954   | 100000&#10;|12952  | 1000000&lt;/p&gt;&#10;&lt;p&gt;This means that your function will have to behave like this:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;total_inc_dec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;totalIncDec&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-clojure&quot;&gt;total-inc-dec 0 =&amp;gt; 1&#10;total-inc-dec 1 =&amp;gt; 10&#10;total-inc-dec 2 =&amp;gt; 100&#10;total-inc-dec 3 =&amp;gt; 475&#10;total-inc-dec 4 =&amp;gt; 1675&#10;total-inc-dec 5 =&amp;gt; 4954&#10;total-inc-dec 6 =&amp;gt; 12952&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;TotalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-coffeescript&quot;&gt;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;)==&lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-scala&quot;&gt;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;)&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;)&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;100&lt;/span&gt;)&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;475&lt;/span&gt;)&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;1675&lt;/span&gt;)&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;4954&lt;/span&gt;)&#10;totalIncDec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;) should be (&lt;span class=&quot;hljs-number&quot;&gt;12952&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;&lt;strong&gt;Tips:&lt;/strong&gt; efficiency and trying to figure out how it works are essential: with a brute force approach, some tests with larger numbers may take more than the total computing power currently on Earth to be finished in the short allotted time.&lt;/p&gt;&#10;&lt;p&gt;To make it even clearer, the increasing or decreasing numbers between in the range 101-200 are: [110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 122, 123, 124, 125, 126, 127, 128, 129, 133, 134, 135, 136, 137, 138, 139, 144, 145, 146, 147, 148, 149, 155, 156, 157, 158, 159, 166, 167, 168, 169, 177, 178, 179, 188, 189, 199, 200], that is 47 of them. In the following range, 201-300, there are 41 of them and so on, getting rarer and rarer.&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Trivia:&lt;/strong&gt; just for the sake of your own curiosity, a number which is neither decreasing of increasing is called a &lt;code&gt;bouncy&lt;/code&gt; number, like, say, 3848 or 37294; also, usually 0 is not considered being increasing, decreasing or bouncy, but it will be for the purpose of this kata&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1054,7 +1472,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="5" />
-                      <option name="name" value="How Many Stairs Will Suzuki Climb in 20 Years" />
+                      <option name="name" value="Total Increasing or Decreasing Numbers up to a Power of 10" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -1091,7 +1509,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/regex-count-lowercase-letters/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Your task is simply to count the total number of lowercase letters in a string.&lt;/p&gt;&#10;&lt;h2&gt;Examples&lt;/h2&gt;&#10;```javascript&#10;lowercaseCount(&quot;abc&quot;); ===&amp;gt; 3&#10;&#10;&lt;p&gt;lowercaseCount(&quot;abcABC123&quot;); ===&amp;gt; 3&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;abcABC123!@€£#$%^&amp;amp;*()_-+=}{[]|':;?/&amp;gt;.&amp;lt;,~&quot;); ===&amp;gt; 3&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;&quot;); ===&amp;gt; 0;&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;ABC123!@€£#$%^&amp;amp;*()_-+=}{[]|':;?/&amp;gt;.&amp;lt;,~&quot;); ===&amp;gt; 0&lt;/p&gt;&#10;&lt;p&gt;lowercaseCount(&quot;abcdefghijklmnopqrstuvwxyz&quot;); ===&amp;gt; 26&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;```csharp&#10;LowercaseCountCheck(&quot;abc&quot;) == 3&#10;LowercaseCountCheck(&quot;abcABC123&quot;) == 3&#10;LowercaseCountCheck(&quot;abcABC123!@€£#$%^&amp;amp;*()_-+=}{[]|\':;?/&amp;gt;.&amp;lt;,~&quot;&quot;) == 3&#10;LowercaseCountCheck(&quot;&quot;) == 0&#10;LowercaseCountCheck(&quot;ABC123!@€£#$%^&amp;amp;*()_-+=}{[]|\':;?/&amp;gt;.&amp;lt;,~&quot;&quot;) == 0&#10;LowercaseCountCheck(&quot;abcdefghijklmnopqrstuvwxyz&quot;) == 26&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/insane-increasing-or-decreasing-numbers/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;h1 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h1&gt;&#10;&lt;p&gt;This Kata is an insane step-up from &lt;a href=&quot;https://www.codewars.com/kata/total-increasing-or-decreasing-numbers-up-to-a-power-of-10/python&quot; target=&quot;_blank&quot;&gt;GiacomoSorbi's Kata&lt;/a&gt;,&#10;so I recommend to solve it first before trying this one.&lt;/p&gt;&#10;&lt;h1 id=&quot;problem-description&quot;&gt;Problem Description&lt;/h1&gt;&#10;&lt;p&gt;A positive integer &lt;code&gt;n&lt;/code&gt; is called an &lt;em&gt;increasing number&lt;/em&gt; if its digits are in increasing order&#10;(e.g. 123, 144568, 56799).&lt;/p&gt;&#10;&lt;p&gt;Similarly, &lt;code&gt;n&lt;/code&gt; is called a &lt;em&gt;decreasing number&lt;/em&gt; if its digits are in decreasing order&#10;(e.g. 210, 76642, 998500).&lt;/p&gt;&#10;&lt;p&gt;Note that the numbers whose digits are all the same (e.g. 1111, 22222) are both increasing and decreasing.&lt;/p&gt;&#10;&lt;p&gt;Given the maximum number of digits (&lt;code&gt;max_digits&lt;/code&gt;), how many positive integers in the range are either increasing or decreasing (or both)?&#10;Since your answer will be very large, please give your answer &lt;strong&gt;modulo 12345787&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;p&gt;Also note that, unlike Giacomo's version, the number zero is excluded from the counts&#10;(because it's not positive).&lt;/p&gt;&#10;&lt;h1 id=&quot;constraints&quot;&gt;Constraints&lt;/h1&gt;&#10;&lt;p&gt;&lt;code&gt;1 &amp;lt;= max_digits &amp;lt;= 10 ** 9&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Note the input size!&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;The input will be always a valid integer.&lt;/p&gt;&#10;&lt;h1 id=&quot;examples&quot;&gt;Examples&lt;/h1&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;# Up to two digits, all numbers are either increasing or decreasing&lt;/span&gt;&#10;insane_inc_or_dec(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;9&lt;/span&gt;&#10;insane_inc_or_dec(&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;99&lt;/span&gt;&#10;insane_inc_or_dec(&lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;474&lt;/span&gt;&#10;insane_inc_or_dec(&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;1674&lt;/span&gt;&#10;insane_inc_or_dec(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;4953&lt;/span&gt;&#10;insane_inc_or_dec(&lt;span class=&quot;hljs-number&quot;&gt;6&lt;/span&gt;) == &lt;span class=&quot;hljs-number&quot;&gt;12951&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;h1 id=&quot;acknowledgement&quot;&gt;Acknowledgement&lt;/h1&gt;&#10;&lt;p&gt;This problem was inspired by &lt;a href=&quot;https://projecteuler.net/problem=113&quot; target=&quot;_blank&quot;&gt;Project Euler #113: Non-bouncy Numbers&lt;/a&gt;.&lt;/p&gt;&#10;&lt;p&gt;If you enjoyed this Kata, please also have a look at &lt;a href=&quot;https://www.codewars.com/users/Bubbler/authored&quot; target=&quot;_blank&quot;&gt;my other Katas&lt;/a&gt;!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1099,7 +1517,7 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="6" />
-                      <option name="name" value="Regex Count Lowercase Letters" />
+                      <option name="name" value="Insane Increasing or Decreasing Numbers" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -1136,7 +1554,7 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;&quot;https://www.codewars.com/kata/noobcode-01-supersize-me-dot-dot-dot-or-rather-this-integer/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a function that rearranges an integer into its largest possible value. &lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;superSize(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;//654321&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 510&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-csharp&quot;&gt;Kata.SuperSize(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;//654321&lt;/span&gt;&#10;Kata.SuperSize(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 510&lt;/span&gt;&#10;Kata.SuperSize(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;// 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;super_size(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;# 654321&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;)    &lt;span class=&quot;hljs-comment&quot;&gt;# 510&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;)     &lt;span class=&quot;hljs-comment&quot;&gt;# 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-ruby&quot;&gt;super_size(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;# 654321&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;)    &lt;span class=&quot;hljs-comment&quot;&gt;# 510&lt;/span&gt;&#10;super_size(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;)     &lt;span class=&quot;hljs-comment&quot;&gt;# 21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;superSize&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt; `shouldBe` &lt;span class=&quot;hljs-number&quot;&gt;654321&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;superSize&lt;/span&gt;    &lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt; `shouldBe`    &lt;span class=&quot;hljs-number&quot;&gt;510&lt;/span&gt;&#10;&lt;span class=&quot;hljs-title&quot;&gt;superSize&lt;/span&gt;     &lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt; `shouldBe`     &lt;span class=&quot;hljs-number&quot;&gt;21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-coffeescript&quot;&gt;superSize(&lt;span class=&quot;hljs-number&quot;&gt;123456&lt;/span&gt;) &lt;span class=&quot;hljs-regexp&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;654321&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;105&lt;/span&gt;) &lt;span class=&quot;hljs-regexp&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;510&lt;/span&gt;&#10;superSize(&lt;span class=&quot;hljs-number&quot;&gt;12&lt;/span&gt;) &lt;span class=&quot;hljs-regexp&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;21&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;If the argument passed through is single digit or is already the maximum possible integer, your function should simply return it.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/count-squares-in-the-chess-board/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;h1 id=&quot;task&quot;&gt;Task&lt;/h1&gt;&#10;&lt;p&gt;You are given a &lt;code&gt;chessBoard&lt;/code&gt;, a 2d integer array that contains only &lt;code&gt;0&lt;/code&gt; or &lt;code&gt;1&lt;/code&gt;. &lt;code&gt;0&lt;/code&gt; represents a chess piece and &lt;code&gt;1&lt;/code&gt; represents a empty grid. It's always square shape.&lt;/p&gt;&#10;&lt;p&gt;Your task is to count the number of squares made of empty grids.&lt;/p&gt;&#10;&lt;p&gt;The smallest size of the square is &lt;code&gt;2 x 2&lt;/code&gt;. The biggest size of the square is &lt;code&gt;n x n&lt;/code&gt;, where &lt;code&gt;n&lt;/code&gt; is the size of chess board. &lt;/p&gt;&#10;&lt;p&gt;A square can overlap the part of other squares. For example:&lt;/p&gt;&#10;&lt;p&gt;If&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;chessBoard=[&#10;  [1,1,1],&#10;  [1,1,1],&#10;  [1,1,1]&#10;]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;...there are four 2 x 2 squares in the chess board:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;[1,1, ]  [ ,1,1]  [ , , ]  [ , , ]&#10;[1,1, ]  [ ,1,1]  [1,1, ]  [ ,1,1]&#10;[ , , ]  [ , , ]  [1,1, ]  [ ,1,1]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And one 3 x 3 square:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;[1,1,1]&#10;[1,1,1]&#10;[1,1,1]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Your output should be an object/dict. Each item in it should be: &lt;code&gt;size:number&lt;/code&gt;, where size is the square's size, and number is the number of squares. &lt;/p&gt;&#10;&lt;p&gt;For example, if there are four &lt;code&gt;2 x 2&lt;/code&gt; squares and one &lt;code&gt;3 x 3&lt;/code&gt; square in the chess board, the output should be: &lt;code&gt;{2:4,3:1}&lt;/code&gt;. The order of items is not important, &lt;code&gt;{3:1,2:4}&lt;/code&gt; is also a valid output.&lt;/p&gt;&#10;&lt;p&gt;If there is no square in the chess board, just return &lt;code&gt;{}&lt;/code&gt;.&lt;/p&gt;&#10;&lt;h1 id=&quot;note&quot;&gt;Note&lt;/h1&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;p&gt;&lt;code&gt;2 &amp;lt;= chessBoard.length &amp;lt;= 400&lt;/code&gt;&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;&lt;code&gt;5&lt;/code&gt; fixed testcases&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;&lt;code&gt;100&lt;/code&gt; random testcases, testing for correctness of solution&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;&lt;code&gt;100&lt;/code&gt; random testcases, testing for performance of code&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;All inputs are valid.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;Pay attention to code performance.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;If my reference solution gives the wrong result in the random tests, please let me know(post an issue). &lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;h1 id=&quot;example&quot;&gt;Example&lt;/h1&gt;&#10;&lt;p&gt;For &lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;chessBoard = [&#10;  [1,1],&#10;  [1,1]&#10;]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;the output should be &lt;code&gt;{2:1}&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;For &lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;chessBoard = [&#10;  [0,1],&#10;  [1,1]&#10;]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;the output should be &lt;code&gt;{}&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;For &lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;chessBoard = [&#10;  [1,1,1],&#10;  [1,1,1],&#10;  [1,1,1]&#10;]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;the output should be &lt;code&gt;{2:4,3:1}&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;For &lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;chessBoard = [&#10;  [1,1,1],&#10;  [1,0,1],&#10;  [1,1,1]&#10;]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;the output should be &lt;code&gt;{}&lt;/code&gt;.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1144,7 +1562,213 @@
                         </FeedbackLink>
                       </option>
                       <option name="index" value="7" />
-                      <option name="name" value="SUPERSIZE ME... or rather, this integer!" />
+                      <option name="name" value="Count Squares in the Chess Board" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="6" />
+                <option name="name" value="3 Kyu" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;h2 id=&quot;task&quot;&gt;Task&lt;/h2&gt;&#10;&lt;p&gt;You are at start location &lt;code&gt;[0, 0]&lt;/code&gt; in mountain area of NxN and you can &lt;strong&gt;only&lt;/strong&gt; move in one of the four cardinal directions (i.e. North, East, South, West). Return minimal number of &lt;code&gt;climb rounds&lt;/code&gt; to target location &lt;code&gt;[N-1, N-1]&lt;/code&gt;. Number of &lt;code&gt;climb rounds&lt;/code&gt; between adjacent locations is defined as difference of location altitudes (ascending or descending).&lt;/p&gt;&#10;&lt;p&gt;Location altitude is defined as an integer number (0-9).&lt;/p&gt;&#10;&lt;h2 id=&quot;path-finder-series&quot;&gt;Path Finder Series:&lt;/h2&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5765870e190b1472ec0022a2&quot; target=&quot;_blank&quot;&gt;#1: can you reach the exit?&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/57658bfa28ed87ecfa00058a&quot; target=&quot;_blank&quot;&gt;#2: shortest path&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/576986639772456f6f00030c&quot; target=&quot;_blank&quot;&gt;#3: the Alpinist&lt;/a&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;a href=&quot;https://www.codewars.com/kata/5a0573c446d8435b8e00009f&quot; target=&quot;_blank&quot;&gt;#4: where are you?&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Path Finder #3 - The Alpinist" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/the-boolean-order/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;In this Kata, you will be given boolean values and boolean operators. Your task will be to return the number of arrangements that evaluate to &lt;code&gt;True&lt;/code&gt;. &lt;/p&gt;&#10;&lt;p&gt;&lt;code&gt;t,f&lt;/code&gt; will stand for &lt;code&gt;true, false&lt;/code&gt; and the operators will be &lt;code&gt;Boolean AND (&amp;amp;), OR (|), and XOR (^)&lt;/code&gt;. &lt;/p&gt;&#10;&lt;p&gt;For example, &lt;code&gt;solve(&quot;tft&quot;,&quot;^&amp;amp;&quot;) = 2&lt;/code&gt;, as follows: &lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;code&gt;&quot;((t ^ f) &amp;amp; t)&quot; = True&lt;/code&gt; &lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;&quot;(t ^ (f &amp;amp; t))&quot; = True&lt;/code&gt;     &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Notice that the order of the boolean values and operators does not change. What changes is the position of braces. &lt;/p&gt;&#10;&lt;p&gt;More examples in the test cases.&lt;/p&gt;&#10;&lt;p&gt;Good luck!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="The Boolean Order" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/alphabetic-anagrams/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Consider a &quot;word&quot; as any sequence of capital letters A-Z (not limited to just &quot;dictionary words&quot;). For any word with at least two different letters, there are other words composed of the same letters but in a different order (for instance, STATIONARILY/ANTIROYALIST, which happen to both be dictionary words; for our purposes &quot;AAIILNORSTTY&quot; is also a &quot;word&quot; composed of the same letters as these two).&lt;/p&gt;&#10;&lt;p&gt;We can then assign a number to every word, based on where it falls in an alphabetically sorted list of all words made up of the same group of letters. One way to do this would be to generate the entire list of words and find the desired one, but this would be slow if the word is long.&lt;/p&gt;&#10;&lt;p&gt;Given a word, return its number. Your function should be able to accept any word 25 letters or less in length (possibly with some letters repeated), and take no more than 500 milliseconds to run. To compare, when the solution code runs the 27 test cases in JS, it takes 101ms.&lt;/p&gt;&#10;&lt;p&gt;For very large words, you'll run into number precision issues in JS (if the word's position is greater than 2^53). For the JS tests with large positions, there's some leeway (.000000001%). If you feel like you're getting it right for the smaller ranks, and only failing by rounding on the larger, submit a couple more times and see if it takes.&lt;/p&gt;&#10;&lt;p&gt;Python, Java and Haskell have arbitrary integer precision, so you must be precise in those languages (unless someone corrects me).&lt;/p&gt;&#10;&lt;p&gt;C# is using a &lt;code&gt;long&lt;/code&gt;, which may not have the best precision, but the tests are locked so we can't change it.&lt;/p&gt;&#10;&lt;p&gt;Sample words, with their rank:&lt;br&gt;&#10;ABAB = 2&lt;br&gt;&#10;AAAB = 1&lt;br&gt;&#10;BAAA = 4&lt;br&gt;&#10;QUESTION = 24572&lt;br&gt;&#10;BOOKKEEPER = 10743&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Alphabetic Anagrams" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="7" />
+                <option name="name" value="2 Kyu" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight:bold;font-size:1.5em;color:red&quot;&gt;&lt;em&gt;Blaine is a pain, and that is the truth&lt;/em&gt;&lt;/span&gt;&lt;em&gt;&amp;nbsp;- Jack Chambers&lt;/em&gt;&lt;/p&gt;&#10;&lt;h1 id=&quot;span-stylecolororangebackgroundspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;Background&lt;/span&gt;&lt;/h1&gt;&#10;&lt;p&gt;Blaine likes to deliberately crash toy trains!&lt;/p&gt;&#10;&lt;h2 id=&quot;span-stylecolororangetrainsspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Trains&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;p&gt;Trains look like this&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;code&gt;Aaaaaaaaaa&lt;/code&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;bbbB&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;The engine and carriages use the same character, but because the only engine is uppercase you can tell which way the train is going.&lt;/p&gt;&#10;&lt;p&gt;Trains can be any alphabetic character&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;An &quot;Express&quot; train uses &lt;code&gt;X&lt;/code&gt;&lt;/li&gt;&#10;&lt;li&gt;Normal suburban trains are all other letters&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;h2 id=&quot;span-stylecolororangetracksspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Tracks&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;p&gt;Track pieces are characters &lt;code&gt;-&lt;/code&gt; &lt;code&gt;|&lt;/code&gt; &lt;code&gt;/&lt;/code&gt; &lt;code&gt;\&lt;/code&gt; &lt;code&gt;+&lt;/code&gt; &lt;code&gt;X&lt;/code&gt; and they can be joined together like this&lt;/p&gt;&#10;&lt;table&gt;&#10;&lt;tbody&gt;&lt;tr&gt;&#10;&lt;td&gt;*Straights*&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;&#10;&lt;hr&gt;&#10;&lt;p&gt;&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;|&#10;|&#10;|&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;\&#10; \&#10;  \&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;   /&#10;  /&#10; /&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&#10;&lt;td&gt;*Corners*&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;|&#10;|&#10;\\-----&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;     |&#10;     |&#10;-----/&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;/-----&#10;|&#10;|&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;-----\&#10;     |&#10;     |&#10;&lt;/pre&gt;&#10;&#10;&lt;/td&gt;&lt;/tr&gt;&#10;&#10;&lt;tr&gt;&#10;&lt;td&gt;*Curves*&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;&#10;&lt;p&gt;-----&lt;br&gt;      \-----&lt;/p&gt;&#10;&lt;p&gt;&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;&#10;&lt;pre&gt;&lt;code&gt;  /-----&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-----/&lt;/p&gt;&#10;&lt;p&gt;&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;  |&#10;  /&#10; /&#10; |&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;|&#10;\&#10; \&#10; |&#10;&lt;/pre&gt;&#10;&#10;&lt;/td&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&#10;&lt;td&gt;*Crossings*&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;   |&#10;---+---&#10;   |&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;  \ /&#10;   X&#10;  / \&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&lt;/td&gt;&lt;td&gt;&#10;&#10;&lt;/td&gt;&lt;/tr&gt;&#10;&#10;&#10;&lt;/tbody&gt;&lt;/table&gt;&#10;&#10;&lt;h2 id=&quot;span-stylecolororangedescribing-where-a-train-is-on-the-linespan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Describing where a train is on the line&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;p&gt;The track &quot;zero position&quot; is defined as the leftmost piece of track of the top row.&lt;/p&gt;&#10;&lt;p&gt;Other &lt;u&gt;track positions&lt;/u&gt; are just distances from this &lt;em&gt;zero position&lt;/em&gt; (following the line beginning clockwise).&lt;/p&gt;&#10;&lt;p&gt;A &lt;u&gt;train position&lt;/u&gt; is the track position of the train &lt;em&gt;engine&lt;/em&gt;. &lt;/p&gt;&#10;&lt;h2 id=&quot;span-stylecolororangestationsspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Stations&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;p&gt;Train stations are represented by a letter &lt;code&gt;S&lt;/code&gt;. &lt;/p&gt;&#10;&lt;p&gt;Stations can be on straight sections of track, or crossings, like this&lt;/p&gt;&#10;&lt;table&gt;&#10;&lt;tbody&gt;&lt;tr&gt;&#10;&lt;td rowspan=&quot;2&quot;&gt;*Stations*&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;&#10;&lt;p&gt;----S-----&lt;/p&gt;&#10;&lt;p&gt;&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;|&#10;S&#10;|&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;\&#10; S&#10;  \&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;   /&#10;  S&#10; /&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;/tr&gt;&#10;&#10;&lt;tr&gt;&#10;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;    |&#10;----S----&#10;    |&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;td width=&quot;20%&quot;&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt; \ /&#10;  S&#10; /  \&#10;&lt;/pre&gt;&#10;&lt;/td&gt;&lt;/tr&gt;&#10;&#10;&lt;/tbody&gt;&lt;/table&gt;&#10;&#10;&lt;br&gt;&#10;When a train arrives at a station it stops there for a period of time determined by the length of the train!&#10;&#10;&lt;p&gt;The time &lt;strong&gt;T&lt;/strong&gt; that a train will remain at the station is same as the number of &lt;em&gt;carriages&lt;/em&gt; it has. &lt;/p&gt;&#10;&lt;p&gt;For example&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;code&gt;bbbB&lt;/code&gt; - will stop at a station for 3 time units&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;Aa&lt;/code&gt; - will stop at a station for 1 time unit&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Exception to the rule: The &quot;Express&quot; trains never stop at any station.&lt;/p&gt;&#10;&lt;h2 id=&quot;span-stylecolororangecollisionsspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Collisions&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;p&gt;There are lots of ways to crash trains. Here are a few of Blaine's favorites...&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;em&gt;The Chicken-Run&lt;/em&gt; - Train chicken. Maximum impact.&lt;/li&gt;&#10;&lt;li&gt;&lt;em&gt;The T-Bone&lt;/em&gt; -  Two trains and one crossing&lt;/li&gt;&#10;&lt;li&gt;&lt;em&gt;The Self-Destruct&lt;/em&gt; - Nobody else to blame here&lt;/li&gt;&#10;&lt;li&gt;&lt;em&gt;The Cabooser&lt;/em&gt; - Run up the tail of a stopped train&lt;/li&gt;&#10;&lt;li&gt;&lt;em&gt;The Kamikaze&lt;/em&gt; - Crash head-on into a stopped train&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;h1 id=&quot;span-stylecolororangekata-taskspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;Kata Task&lt;/span&gt;&lt;/h1&gt;&#10;&lt;p&gt;Blaine has a variety of &lt;em&gt;continuous loop&lt;/em&gt; train lines. &lt;/p&gt;&#10;&lt;p&gt;Two trains are then placed onto the line, and both start moving at the same time. &lt;/p&gt;&#10;&lt;p&gt;How long (how many iterations) before the trains collide?&lt;/p&gt;&#10;&lt;h2 id=&quot;span-stylecolororangeinputspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Input&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;code&gt;track&lt;/code&gt; - string representation of the entire train line (&lt;code&gt;\n&lt;/code&gt; separators - maybe jagged, maybe not trailing)&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;a&lt;/code&gt; - train A&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;aPos&lt;/code&gt; - train A start position&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;b&lt;/code&gt; - train B&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;bPos&lt;/code&gt; - train B start position&lt;/li&gt;&#10;&lt;li&gt;&lt;code&gt;limit&lt;/code&gt; - how long before Blaine tires of waiting for a crash and gives up&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;h2 id=&quot;span-stylecolororangeoutputspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/span&gt;&lt;/h2&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;Return how long before the trains collide, or&lt;/li&gt;&#10;&lt;li&gt;Return &lt;code&gt;-1&lt;/code&gt; if they have not crashed before &lt;code&gt;limit&lt;/code&gt; time has elapsed, or&lt;/li&gt;&#10;&lt;li&gt;Return &lt;code&gt;0&lt;/code&gt; if the trains were already crashed in their start positions. Blaine is sneaky sometimes.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;h1 id=&quot;span-stylecolororangenotesspan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;Notes&lt;/span&gt;&lt;/h1&gt;&#10;&lt;p&gt;Trains&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;Speed...&lt;ul&gt;&#10;&lt;li&gt;All trains (even the &quot;Express&quot; ones) move at the same constant speed of 1 track piece / time unit&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;Length...&lt;ul&gt;&#10;&lt;li&gt;Trains can be any length, but there will always be at least one carriage&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;Stations...&lt;ul&gt;&#10;&lt;li&gt;Suburban trains stop at every station&lt;/li&gt;&#10;&lt;li&gt;&quot;Express&quot; trains don't stop at any station&lt;/li&gt;&#10;&lt;li&gt;If the start position happens to be at a station then the train leaves at the next move&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;Directions...&lt;ul&gt;&#10;&lt;li&gt;Trains can travel in either direction&lt;/li&gt;&#10;&lt;li&gt;A train that looks like &lt;code&gt;zzzzzZ&lt;/code&gt; is travelling &lt;em&gt;clockwise&lt;/em&gt; as it passed the track &quot;zero position&quot;&lt;/li&gt;&#10;&lt;li&gt;A train that looks like &lt;code&gt;Zzzzzz&lt;/code&gt; is traveliing &lt;em&gt;anti-clockwise&lt;/em&gt; as it passes the track &quot;zero position&quot;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Tracks&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;All tracks are single continuous loops&lt;/li&gt;&#10;&lt;li&gt;There are no ambiguous corners / junctions in Blaine's track layouts&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;All input is valid&lt;/p&gt;&#10;&lt;h1 id=&quot;span-stylecolororangeexamplespan&quot;&gt;&lt;span style=&quot;color:orange&quot;&gt;Example&lt;/span&gt;&lt;/h1&gt;&#10;&lt;p&gt;In the following track layout:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;The &quot;zero position&quot; is  &lt;span style=&quot;background:orange&quot;&gt;/&lt;/span&gt;&lt;/li&gt;&#10;&lt;li&gt;Train A is &lt;span style=&quot;background:green&quot;&gt;Aaaa&lt;/span&gt; and is at position &lt;code&gt;147&lt;/code&gt;&lt;/li&gt;&#10;&lt;li&gt;Train B is &lt;span style=&quot;background:red&quot;&gt;Bbbbbbbbbbb&lt;/span&gt; and is at position &lt;code&gt;288&lt;/code&gt;&lt;/li&gt;&#10;&lt;li&gt;There are 3 stations denoted by &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;pre style=&quot;background:black&quot;&gt;                                &lt;span style=&quot;background:orange&quot;&gt;/&lt;/span&gt;------------\&#10;/-----&lt;span style=&quot;background:green&quot;&gt;Aaaa&lt;/span&gt;----\                /             |&#10;|             |               /              S&#10;|             |              /               |&#10;|        /----+--------------+------\        |&#10;\       /     |              |      |        |&#10; \      |     \              |      |        |&#10; |      |      \-------------+------+--------+---\&#10; |      |                    |      |        |   |&#10; \------+------S-------------+------/        /   |&#10;        |                    |              /    |&#10;        \--------------------+-------------/     |&#10;                             |                   |&#10;/-------------\              |                   |&#10;|             |              |             /-----+----\&#10;|             |              |             |     |     \&#10;\-------------+--------------+-----S-------+-----/      \&#10;              |              |             |             \&#10;              |              |             |             |&#10;              |              \-------------+-------------/&#10;              |                            |&#10;              \---------&lt;span style=&quot;background:red&quot;&gt;Bbbbbbbbbbb&lt;/span&gt;--------/&#10;&lt;/pre&gt;&#10;&#10;&lt;br&gt;&#10;&lt;hr&gt;&#10;Good Luck!&#10;&#10;&lt;p&gt;DM&lt;br&gt;&lt;span style=&quot;color:red&quot;&gt;:-)&lt;/span&gt;&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Blane is a Pain" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -1181,15 +1805,15 @@
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/56a3f08aa9a6cc9b75000023/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Write a simple regex to validate a username. Allowed characters are:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;lowercase letters,&lt;/li&gt;&#10;&lt;li&gt;numbers,&lt;/li&gt;&#10;&lt;li&gt;underscore&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Length should be between 4 and 16 characters (both included).&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/the-position-of-a-digital-string-in-a-infinite-digital-string/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;blockquote&gt;&#10;&lt;p&gt;When no more interesting kata can be resolved, I just choose to create the new kata, to solve their own, to enjoy the process  --myjinxin2015 said&lt;/p&gt;&#10;&lt;/blockquote&gt;&#10;&lt;h1 id=&quot;description&quot;&gt;Description:&lt;/h1&gt;&#10;&lt;p&gt; There is a infinite string. You can imagine it's a combination of numbers from 1 to n, like this:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt; &quot;123456789101112131415....n-2n-1n&quot;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; Please note: the length of the string is infinite. It depends on how long you need it(I can't offer it as a argument, it only exists in your imagination) ;-)&lt;/p&gt;&#10;&lt;p&gt; Your task is complete function &lt;code&gt;findPosition&lt;/code&gt; that accept a digital string &lt;code&gt;num&lt;/code&gt;. Returns the position(index) of the digital string(the first appearance).&lt;/p&gt;&#10;&lt;p&gt; For example:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt; findPosition(&quot;456&quot;) == 3&#10; because &quot;123456789101112131415&quot;.indexOf(&quot;456&quot;) = 3&#10;             ^^^&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; Is it simple? No, It is more difficult than you think ;-) &lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt; findPosition(&quot;454&quot;) = ?&#10; Oh, no! There is no &quot;454&quot; in &quot;123456789101112131415&quot;,&#10; so we should return -1?&#10; No, I said, this is a string of infinite length.&#10; We need to increase the length of the string to find &quot;454&quot;&#10;&#10; findPosition(&quot;454&quot;) == 79&#10; because &quot;123456789101112131415...44454647&quot;.indexOf(&quot;454&quot;)=79&#10;                                    ^^^&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; The length of argument &lt;code&gt;num&lt;/code&gt; is 2 to 15. So now there are two ways: one is to create a huge own string to find the index position; Or thinking about an algorithm to calculate the index position. &lt;/p&gt;&#10;&lt;p&gt; Which way would you choose? ;-)&lt;/p&gt;&#10;&lt;h1 id=&quot;some-examples&quot;&gt;Some examples:&lt;/h1&gt;&#10;&lt;pre&gt;&lt;code&gt; findPosition(&quot;456&quot;) == 3&#10; (&quot;...3456...&quot;)&#10;       ^^^&#10; findPosition(&quot;454&quot;) == 79&#10; (&quot;...444546...&quot;)&#10;        ^^^&#10; findPosition(&quot;455&quot;) == 98&#10; (&quot;...545556...&quot;)&#10;       ^^^&#10; findPosition(&quot;910&quot;) == 8&#10; (&quot;...7891011...&quot;)&#10;        ^^^&#10; findPosition(&quot;9100&quot;) == 188&#10; (&quot;...9899100101...&quot;)&#10;         ^^^^&#10; findPosition(&quot;99100&quot;) == 187&#10; (&quot;...9899100101...&quot;)&#10;        ^^^^^&#10; findPosition(&quot;00101&quot;) == 190&#10; (&quot;...99100101...&quot;)&#10;         ^^^^^&#10; findPosition(&quot;001&quot;) == 190&#10; (&quot;...9899100101...&quot;)&#10;           ^^^&#10; findPosition(&quot;123456789&quot;) == 0&#10; findPosition(&quot;1234567891&quot;) == 0&#10; findPosition(&quot;123456798&quot;) == 1000000071&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;A bit difficulty, A bit of fun, happy coding ;-)&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
                           <option name="type" value="STEPIK" />
                         </FeedbackLink>
                       </option>
-                      <option name="index" value="8" />
-                      <option name="name" value="Simple Validation of a Username with Regex" />
+                      <option name="index" value="2" />
+                      <option name="name" value="The Position of a Digital String in a Infinite Digital String" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
@@ -1201,7 +1825,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -1220,22 +1844,35 @@
                       </option>
                       <option name="updateDate" value="0" />
                     </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="8" />
+                <option name="name" value="1 Kyu" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
                     <EduTask>
                       <option name="additionalFiles">
                         <map />
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/572b6b2772a38bc1e700007a/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;You'll be given a string, and have to return the total of all the unicode characters as an int. Should be able to handle any characters sent at it. &lt;/p&gt;&#10;&lt;p&gt;examples:&lt;/p&gt;&#10;&lt;p&gt;uniTotal(&quot;a&quot;) == 97&#10;uniTotal(&quot;aaa&quot;) == 291&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/four-pass-transport/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;!--Four Pass Transport--&gt;&#10;&lt;p&gt;The eccentric candy-maker, Billy Bonka, is building a new candy factory to produce his new 4-flavor sugar pops. The candy is made by placing a piece of candy base onto a conveyer belt which transports the candy through four separate processing stations in sequential order. Each station adds another layer of flavor.&lt;/p&gt;&#10;&lt;p&gt;Due to an error in the factory blueprints, the four stations have been constructed in incorrect locations. It's too costly to disassemble the stations, so you've been called in.&lt;/p&gt;&#10;&lt;p&gt;Arrange the directional path of the conveyer belt so that it passes through each of the stations in sequential order while also traveling the shortest distance possible.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;color:#f88&quot;&gt;Input&lt;/h2&gt;&#10;&lt;p&gt;An array consisting of the locations of each station on the factory floor, in order. The factory floor is a &lt;code&gt;10&lt;/code&gt; x &lt;code&gt;10&lt;/code&gt; matrix (with &lt;code&gt;0&lt;/code&gt; starting index).&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;color:#f88&quot;&gt;Output&lt;/h2&gt;&#10;&lt;p&gt;Your function should return the path of the conveyer belt as an array.&lt;br&gt;&#10;If a valid configuration is not possible, return &lt;code&gt;null&lt;/code&gt; or &lt;code&gt;None&lt;/code&gt;.&lt;/p&gt;&#10;&#10;&lt;p&gt;The position values in the input and output arrays will consist of integers in the range &lt;code&gt;0 - 99&lt;/code&gt;, inclusive. These integers represent a position on the factory floor.&lt;br&gt;&#10;For example, the position &lt;code&gt;[0,8]&lt;/code&gt; is given as &lt;code&gt;8&lt;/code&gt;, and &lt;code&gt;[4,6]&lt;/code&gt; is given as &lt;code&gt;46&lt;/code&gt;&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;color:#f88&quot;&gt;Technical Details&lt;/h2&gt;&#10;&lt;ul&gt;&#10;    &lt;li&gt;The conveyer belt must run through each station once and in ascending order&lt;/li&gt;&#10;    &lt;li&gt;The conveyer belt  must not intersect/overlap itself&lt;/li&gt;&#10;    &lt;li&gt;The distance covered by the conveyer belt must be the minimum necessary to complete the task&lt;/li&gt;&#10;    &lt;li&gt;Full Test Suite: &lt;code&gt;30&lt;/code&gt; fixed tests, &lt;code&gt;100&lt;/code&gt; random tests&lt;/li&gt;&#10;    &lt;li&gt;Inputs will always be valid and each test will have zero or more possible solutions..&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;h2 style=&quot;color:#f88&quot;&gt;Test Example&lt;/h2&gt;&#10;&lt;img src=&quot;https://i.imgur.com/eAofgDs.png&quot; alt=&quot;4 stations&quot;&gt;&#10;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;//INPUT - reference image A&lt;/span&gt;&#10;&lt;span class=&quot;hljs-keyword&quot;&gt;let&lt;/span&gt; stations = [&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;65&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;93&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;36&lt;/span&gt;];&#10;fourPass(stations);&#10;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;//OUTPUT #1 - reference image B&lt;/span&gt;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;// [0, 1, 2, 3, 4, 5, 15, 25, 35, 45, 55, 65, 64, 63, 73, 83, 93, 94, 95, 96, 86, 76, 66, 56, 46, 36]&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;//OUTPUT #2 - reference image C&lt;/span&gt;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;// [0, 10, 20, 30, 40, 50, 60, 61, 62, 63, 64, 65, 75, 85, 84, 83, 93, 94, 95, 96, 86, 76, 66, 56, 46, 36]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;# INPUT - reference image A&lt;/span&gt;&#10;stations = [&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;65&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;93&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;36&lt;/span&gt;]&#10;four_pass(stations)&#10;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;# OUTPUT #1 - reference image B&lt;/span&gt;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;# [0, 1, 2, 3, 4, 5, 15, 25, 35, 45, 55, 65, 64, 63, 73, 83, 93, 94, 95, 96, 86, 76, 66, 56, 46, 36]&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;# OUTPUT #2 - reference image C&lt;/span&gt;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;# [0, 10, 20, 30, 40, 50, 60, 61, 62, 63, 64, 65, 75, 85, 84, 83, 93, 94, 95, 96, 86, 76, 66, 56, 46, 36]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// INPUT - reference image A&lt;/span&gt;&#10;&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;[] stations = {&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;65&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;93&lt;/span&gt;,&lt;span class=&quot;hljs-number&quot;&gt;36&lt;/span&gt;};&#10;&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; FPT(stations).solve();&#10;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;// OUTPUT #1 - reference image B&lt;/span&gt;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;// [0, 1, 2, 3, 4, 5, 15, 25, 35, 45, 55, 65, 64, 63, 73, 83, 93, 94, 95, 96, 86, 76, 66, 56, 46, 36]&lt;/span&gt;&#10;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;// OUTPUT #2 - reference image C&lt;/span&gt;&#10;&lt;span class=&quot;hljs-comment&quot;&gt;// [0, 10, 20, 30, 40, 50, 60, 61, 62, 63, 64, 65, 75, 85, 84, 83, 93, 94, 95, 96, 86, 76, 66, 56, 46, 36]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;If you enjoyed this kata, be sure to check out &lt;a href=&quot;https://www.codewars.com/users/docgunthrop/authored&quot; target=&quot;_blank&quot;&gt;my other katas&lt;/a&gt;.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
                           <option name="type" value="STEPIK" />
                         </FeedbackLink>
                       </option>
-                      <option name="index" value="9" />
-                      <option name="name" value="Unicode Total" />
-                      <option name="status" value="Unchecked" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Four Pass Transport" />
+                      <option name="status" value="Failed" />
                       <option name="stepId" value="0" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
@@ -1246,7 +1883,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="task.py" />
                                 <option name="text" value="# TODO: type solution here&#10;" />
                                 <option name="trackChanges" value="true" />

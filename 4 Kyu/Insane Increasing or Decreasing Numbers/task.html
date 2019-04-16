@@ -1,0 +1,32 @@
+<html>
+From <a href="https://www.codewars.com/kata/insane-increasing-or-decreasing-numbers/train/python">CodeWars</a>
+<div class="markdown" id="description"><h1 id="disclaimer">Disclaimer</h1>
+<p>This Kata is an insane step-up from <a href="https://www.codewars.com/kata/total-increasing-or-decreasing-numbers-up-to-a-power-of-10/python" target="_blank">GiacomoSorbi's Kata</a>,
+so I recommend to solve it first before trying this one.</p>
+<h1 id="problem-description">Problem Description</h1>
+<p>A positive integer <code>n</code> is called an <em>increasing number</em> if its digits are in increasing order
+(e.g. 123, 144568, 56799).</p>
+<p>Similarly, <code>n</code> is called a <em>decreasing number</em> if its digits are in decreasing order
+(e.g. 210, 76642, 998500).</p>
+<p>Note that the numbers whose digits are all the same (e.g. 1111, 22222) are both increasing and decreasing.</p>
+<p>Given the maximum number of digits (<code>max_digits</code>), how many positive integers in the range are either increasing or decreasing (or both)?
+Since your answer will be very large, please give your answer <strong>modulo 12345787</strong>.</p>
+<p>Also note that, unlike Giacomo's version, the number zero is excluded from the counts
+(because it's not positive).</p>
+<h1 id="constraints">Constraints</h1>
+<p><code>1 &lt;= max_digits &lt;= 10 ** 9</code></p>
+<p><strong>Note the input size!</strong></p>
+<p>The input will be always a valid integer.</p>
+<h1 id="examples">Examples</h1>
+<pre><code class="language-python"><span class="hljs-comment"># Up to two digits, all numbers are either increasing or decreasing</span>
+insane_inc_or_dec(<span class="hljs-number">1</span>) == <span class="hljs-number">9</span>
+insane_inc_or_dec(<span class="hljs-number">2</span>) == <span class="hljs-number">99</span>
+insane_inc_or_dec(<span class="hljs-number">3</span>) == <span class="hljs-number">474</span>
+insane_inc_or_dec(<span class="hljs-number">4</span>) == <span class="hljs-number">1674</span>
+insane_inc_or_dec(<span class="hljs-number">5</span>) == <span class="hljs-number">4953</span>
+insane_inc_or_dec(<span class="hljs-number">6</span>) == <span class="hljs-number">12951</span></code></pre>
+<h1 id="acknowledgement">Acknowledgement</h1>
+<p>This problem was inspired by <a href="https://projecteuler.net/problem=113" target="_blank">Project Euler #113: Non-bouncy Numbers</a>.</p>
+<p>If you enjoyed this Kata, please also have a look at <a href="https://www.codewars.com/users/Bubbler/authored" target="_blank">my other Katas</a>!</p>
+</div>
+</html>

@@ -1,0 +1,53 @@
+<html>
+From <a href="https://www.codewars.com/kata/the-position-of-a-digital-string-in-a-infinite-digital-string/train/python">CodeWars</a>
+<div class="markdown" id="description"><blockquote>
+<p>When no more interesting kata can be resolved, I just choose to create the new kata, to solve their own, to enjoy the process  --myjinxin2015 said</p>
+</blockquote>
+<h1 id="description">Description:</h1>
+<p> There is a infinite string. You can imagine it's a combination of numbers from 1 to n, like this:</p>
+<pre><code> "123456789101112131415....n-2n-1n"</code></pre><p> Please note: the length of the string is infinite. It depends on how long you need it(I can't offer it as a argument, it only exists in your imagination) ;-)</p>
+<p> Your task is complete function <code>findPosition</code> that accept a digital string <code>num</code>. Returns the position(index) of the digital string(the first appearance).</p>
+<p> For example:</p>
+<pre><code> findPosition("456") == 3
+ because "123456789101112131415".indexOf("456") = 3
+             ^^^</code></pre><p> Is it simple? No, It is more difficult than you think ;-) </p>
+<pre><code> findPosition("454") = ?
+ Oh, no! There is no "454" in "123456789101112131415",
+ so we should return -1?
+ No, I said, this is a string of infinite length.
+ We need to increase the length of the string to find "454"
+
+ findPosition("454") == 79
+ because "123456789101112131415...44454647".indexOf("454")=79
+                                    ^^^</code></pre><p> The length of argument <code>num</code> is 2 to 15. So now there are two ways: one is to create a huge own string to find the index position; Or thinking about an algorithm to calculate the index position. </p>
+<p> Which way would you choose? ;-)</p>
+<h1 id="some-examples">Some examples:</h1>
+<pre><code> findPosition("456") == 3
+ ("...3456...")
+       ^^^
+ findPosition("454") == 79
+ ("...444546...")
+        ^^^
+ findPosition("455") == 98
+ ("...545556...")
+       ^^^
+ findPosition("910") == 8
+ ("...7891011...")
+        ^^^
+ findPosition("9100") == 188
+ ("...9899100101...")
+         ^^^^
+ findPosition("99100") == 187
+ ("...9899100101...")
+        ^^^^^
+ findPosition("00101") == 190
+ ("...99100101...")
+         ^^^^^
+ findPosition("001") == 190
+ ("...9899100101...")
+           ^^^
+ findPosition("123456789") == 0
+ findPosition("1234567891") == 0
+ findPosition("123456798") == 1000000071</code></pre><p>A bit difficulty, A bit of fun, happy coding ;-)</p>
+</div>
+</html>

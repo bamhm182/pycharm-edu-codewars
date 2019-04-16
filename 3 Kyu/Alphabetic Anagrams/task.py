@@ -1,0 +1,2 @@
+def listPosition(word):
+  return
