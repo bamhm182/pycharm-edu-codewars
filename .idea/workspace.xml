@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be31f871-7038-497c-a161-72ed65606835" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7 Kyu/Vowel Count/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Check the Exam/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Dollars and Cents/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Double Char/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Filter Out the Geese/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/How Many Stairs Will Suzuki Climb in 20 Years/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Regex Count Lowercase Letters/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/SUPERSIZE ME... or rather, this integer!/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Simple Validation of a Username with Regex/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8 Kyu/Unicode Total/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>failed(</find>
+      <find>#educational_plugin</find>
+      <find>29</find>
+      <find>error_line = re.findall(r&quot;\s*(self\.assert.*)&quot;, error_line)[0]</find>
+      <find>^\s*error_line = re.find.*\[0\]</find>
+      <find>\d</find>
+      <find>self.assertEqual(task.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>error_line = re.findall(r&quot;\s*self\.assertEqual\(task\.(.*\)).*\)&quot;, error_line)[0]</replace>
+      <replace>print(</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Instructions.txt" />
+        <option value="$PROJECT_DIR$/5 Kyu/Valid Parenthesis/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Coloured Triangles/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Coloured Triangles/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Mumbling/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Mumbling/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Get the Middle Character/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Get the Middle Character/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Vowel Count/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Vowel Count/tests.py" />
+        <option value="$PROJECT_DIR$/8 Kyu/Even or Odd/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Even or Odd/task.py" />
+        <option value="$PROJECT_DIR$/8 Kyu/Even or Odd/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Highest and Lowest/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Highest and Lowest/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Shortest Word/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Shortest Word/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Descending Order/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Descending Order/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Complementary DNA/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Complementary DNA/tests.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Exes and Ohs/task.py" />
+        <option value="$PROJECT_DIR$/7 Kyu/Exes and Ohs/tests.py" />
+        <option value="$PROJECT_DIR$/5 Kyu/Valid Parenthesis/task.html" />
+        <option value="$PROJECT_DIR$/5 Kyu/Prime in Numbers/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/Count the Smiley Faces/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/Duplicate Encoder/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/Salesman's Travel/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Coloured Triangles/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Complementary DNA/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Descending Order/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Exes and Ohs/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Get the Middle Character/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Highest and Lowest/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Mumbling/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Ones and Zeros/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Shortest Word/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Sort Array By String Length/task.html" />
+        <option value="$PROJECT_DIR$/7 Kyu/Vowel Count/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Check the Exam/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Dollars and Cents/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Double Char/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Filter Out the Geese/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/How Many Stairs Will Suzuki Climb in 20 Years/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Regex Count Lowercase Letters/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/SUPERSIZE ME... or rather, this integer!/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Simple Validation of a Username with Regex/task.html" />
+        <option value="$PROJECT_DIR$/8 Kyu/Unicode Total/task.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1910" />
+    <option name="width" value="1942" />
+    <option name="height" value="2092" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Course" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pycharm-edu-codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pycharm-edu-codewars" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Count the Smiley Faces" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Duplicate Encoder" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Salesman's Travel" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Binary Representation of an Integer" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Coloured Triangles" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Complementary DNA" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Descending Order" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Exes and Ohs" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Get the Middle Character" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Highest and Lowest" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Mumbling" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Ones and Zeros" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Shortest Word" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Sort Array By String Length" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="7 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Vowel Count" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Check the Exam" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Dollars and Cents" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Double Char" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Filter Out the Geese" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="How Many Stairs Will Suzuki Climb in 20 Years" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Regex Count Lowercase Letters" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="SUPERSIZE ME... or rather, this integer!" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Simple Validation of a Username with Regex" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="8 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Unicode Total" type="83e62b93:CCTaskNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HINTS_IN_TASK_DESCRIPTION" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/CodeWars" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.task (3)">
+    <configuration name="task (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodeWars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5 Kyu/Valid Parenthesis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5 Kyu/Valid Parenthesis/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodeWars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodeWars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7 Kyu/Coloured Triangles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7 Kyu/Coloured Triangles/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodeWars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5 Kyu/Prime in Numbers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5 Kyu/Prime in Numbers/task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5 Kyu/Prime in Numbers" type="ccruntests" factoryName="Run Study Tests" temporary="true">
+      <module name="CodeWars" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="studyTest" value="C:\Users\bamhm\PycharmProjects\CodeWars\5 Kyu\Prime in Numbers\tests.py" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task (3)" />
+        <item itemvalue="Python.task (2)" />
+        <item itemvalue="Python.task (1)" />
+        <item itemvalue="Python.task" />
+        <item itemvalue="Run Study Tests.5 Kyu/Prime in Numbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 20m 49s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_exception_helper_Test_test - 2019.04.14 at 15h 41m 44s.xml">
+      <configuration name="Unittests for exception_helper.Test.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 42m 32s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 43m 01s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 43m 18s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 43m 42s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 44m 02s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 44m 44s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 48m 53s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_exception_helper_py - 2019.04.14 at 15h 49m 55s.xml">
+      <configuration name="Unittests in exception_helper.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="955" y="0" width="971" height="1046" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35377875" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40588853" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" weight="0.32912722" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32912722" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32912722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Task" order="3" visible="true" weight="0.45564073" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="139" selection-start-line="10" selection-start-column="123" selection-end-line="10" selection-end-column="139" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Coloured Triangles/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret selection-end-line="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Mumbling/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Coloured Triangles/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Mumbling/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Get the Middle Character/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Get the Middle Character/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Vowel Count/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Vowel Count/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Even or Odd/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Even or Odd/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Even or Odd/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Highest and Lowest/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Highest and Lowest/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Shortest Word/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Shortest Word/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Descending Order/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Descending Order/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Complementary DNA/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Complementary DNA/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Exes and Ohs/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Exes and Ohs/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5 Kyu/Valid Parenthesis/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5 Kyu/Valid Parenthesis/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5 Kyu/Prime in Numbers/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Count the Smiley Faces/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Count the Smiley Faces/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Duplicate Encoder/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Salesman's Travel/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Binary Representation of an Integer/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Coloured Triangles/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Complementary DNA/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Descending Order/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Exes and Ohs/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Get the Middle Character/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Highest and Lowest/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Mumbling/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Ones and Zeros/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Shortest Word/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Sort Array By String Length/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7 Kyu/Vowel Count/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Check the Exam/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Dollars and Cents/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Double Char/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Filter Out the Geese/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/How Many Stairs Will Suzuki Climb in 20 Years/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Regex Count Lowercase Letters/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/SUPERSIZE ME... or rather, this integer!/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Simple Validation of a Username with Regex/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 Kyu/Unicode Total/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
