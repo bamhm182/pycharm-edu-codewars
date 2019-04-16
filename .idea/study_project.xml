@@ -42,18 +42,18 @@
               <option value="83056" />
             </list>
           </option>
-          <option name="stepikChangeStatus" value="Content changed" />
+          <option name="stepikChangeStatus" value="Up to date" />
           <option name="type" value="pycharm8 Python" />
           <option name="updateDate" value="1555220078000" />
           <option name="items">
             <list>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222661" />
                 <option name="index" value="1" />
                 <option name="name" value="8 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382465000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -72,7 +72,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Check the Exam" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684003" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -96,10 +96,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_check_exam(self):&#10;        try:&#10;            self.assertEqual(task.check_exam([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;b&quot;], [&quot;a&quot;, &quot;c&quot;, &quot;b&quot;, &quot;d&quot;]), 6)&#10;            self.assertEqual(task.check_exam([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;b&quot;], [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;,  &quot;&quot;]), 7)&#10;            self.assertEqual(task.check_exam([&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;], [&quot;a&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]), 16)&#10;            self.assertEqual(task.check_exam([&quot;b&quot;, &quot;c&quot;, &quot;b&quot;, &quot;a&quot;], [&quot;&quot;,  &quot;a&quot;, &quot;a&quot;, &quot;c&quot;]), 0)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382446000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -117,7 +117,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Dollars and Cents" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684004" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -141,10 +141,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_format_money(self):&#10;        try:&#10;            self.assertEqual(task.format_money(3), &quot;$3.00&quot;)&#10;            self.assertEqual(task.format_money(5.99), &quot;$5.99&quot;)&#10;            self.assertEqual(task.format_money(3.1), &quot;$3.10&quot;)&#10;            self.assertEqual(task.format_money(410.63), &quot;$410.63&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382446000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -162,7 +162,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Double Char" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684005" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -186,10 +186,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_double_char(self):&#10;        try:&#10;            self.assertEqual(task.double_char(&quot;String&quot;), &quot;SSttrriinngg&quot;)&#10;            self.assertEqual(task.double_char(&quot;Hello World&quot;), &quot;HHeelllloo  WWoorrlldd&quot;)&#10;            self.assertEqual(task.double_char(&quot;1234!_ &quot;), &quot;11223344!!__  &quot;)&#10;            self.assertEqual(task.double_char(&quot;racecar&quot;), &quot;rraacceeccaarr&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382447000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -207,7 +207,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Filter Out the Geese" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684006" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -231,10 +231,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_goose_filter(self):&#10;        try:&#10;            self.assertEqual(task.goose_filter([&quot;Mallard&quot;, &quot;Hook Bill&quot;, &quot;African&quot;, &quot;Crested&quot;, &quot;Pilgrim&quot;, &quot;Toulouse&quot;, &quot;Blue Swedish&quot;]), [&quot;Mallard&quot;, &quot;Hook Bill&quot;, &quot;Crested&quot;, &quot;Blue Swedish&quot;])&#10;            self.assertEqual(task.goose_filter([&quot;Mallard&quot;, &quot;Barbary&quot;, &quot;Hook Bill&quot;, &quot;Blue Swedish&quot;, &quot;Crested&quot;]), [&quot;Mallard&quot;, &quot;Barbary&quot;, &quot;Hook Bill&quot;, &quot;Blue Swedish&quot;, &quot;Crested&quot;])&#10;            self.assertEqual(task.goose_filter([&quot;African&quot;, &quot;Roman Tufted&quot;, &quot;Toulouse&quot;, &quot;Pilgrim&quot;, &quot;Steinbacher&quot;]), [])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382448000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -252,7 +252,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="How Many Stairs Will Suzuki Climb in 20 Years" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684007" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -276,10 +276,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_stairs_in_20(self):&#10;        try:&#10;            sunday = [6737, 7244, 5776, 9826, 7057, 9247, 5842, 5484, 6543, 5153, 6832, 8274,&#10;                      7148, 6152, 5940, 8040, 9174, 7555, 7682, 5252, 8793, 8837, 7320, 8478, 6063,&#10;                      5751, 9716, 5085, 7315, 7859, 6628, 5425, 6331, 7097, 6249, 8381, 5936, 8496,&#10;                      6934, 8347, 7036, 6421, 6510, 5821, 8602, 5312, 7836, 8032, 9871, 5990, 6309, 7825]&#10;&#10;            monday = [9175, 7883, 7596, 8635, 9274, 9675, 5603, 6863, 6442, 9500, 7468, 9719,&#10;                      6648, 8180, 7944, 5190, 6209, 7175, 5984, 9737, 5548, 6803, 9254, 5932, 7360, 9221,&#10;                      5702, 5252, 7041, 7287, 5185, 9139, 7187, 8855, 9310, 9105, 9769, 9679, 7842,&#10;                      7466, 7321, 6785, 8770, 8108, 7985, 5186, 9021, 9098, 6099, 5828, 7217, 9387]&#10;&#10;            tuesday = [8646, 6945, 6364, 9563, 5627, 5068, 9157, 9439, 5681, 8674, 6379, 8292,&#10;                       7552, 5370, 7579, 9851, 8520, 5881, 7138, 7890, 6016, 5630, 5985, 9758, 8415, 7313,&#10;                       7761, 9853, 7937, 9268, 7888, 6589, 9366, 9867, 5093, 6684, 8793, 8116, 8493,&#10;                       5265, 5815, 7191, 9515, 7825, 9508, 6878, 7180, 8756, 5717, 7555, 9447, 7703]&#10;&#10;            wednesday = [6353, 9605, 5464, 9752, 9915, 7446, 9419, 6520, 7438, 6512, 7102,&#10;                         5047, 6601, 8303, 9118, 5093, 8463, 7116, 7378, 9738, 9998, 7125, 6445, 6031, 8710,&#10;                         5182, 9142, 9415, 9710, 7342, 9425, 7927, 9030, 7742, 8394, 9652, 5783, 7698,&#10;                         9492, 6973, 6531, 7698, 8994, 8058, 6406, 5738, 7500, 8357, 7378, 9598, 5405, 9493]&#10;&#10;            thursday = [6149, 6439, 9899, 5897, 8589, 7627, 6348, 9625, 9490, 5502, 5723, 8197,&#10;                        9866, 6609, 6308, 7163, 9726, 7222, 7549, 6203, 5876, 8836, 6442, 6752, 8695, 8402,&#10;                        9638, 9925, 5508, 8636, 5226, 9941, 8936, 5047, 6445, 8063, 6083, 7383, 7548, 5066,&#10;                        7107, 6911, 9302, 5202, 7487, 5593, 8620, 8858, 5360, 6638, 8012, 8701]&#10;&#10;            friday = [5000, 5642, 9143, 7731, 8477, 8000, 7411, 8813, 8288, 5637, 6244, 6589, 6362,&#10;                      6200, 6781, 8371, 7082, 5348, 8842, 9513, 5896, 6628, 8164, 8473, 5663, 9501,&#10;                      9177, 8384, 8229, 8781, 9160, 6955, 9407, 7443, 8934, 8072, 8942, 6859, 5617,&#10;                      5078, 8910, 6732, 9848, 8951, 9407, 6699, 9842, 7455, 8720, 5725, 6960, 5127]&#10;&#10;            saturday = [5448, 8041, 6573, 8104, 6208, 5912, 7927, 8909, 7000, 5059, 6412, 6354, 8943,&#10;                        5460, 9979, 5379, 8501, 6831, 7022, 7575, 5828, 5354, 5115, 9625, 7795, 7003,&#10;                        5524, 9870, 6591, 8616, 5163, 6656, 8150, 8826, 6875, 5242, 9585, 9649, 9838,&#10;                        7150, 6567, 8524, 7613, 7809, 5562, 7799, 7179, 5184, 7960, 9455, 5633, 9085]&#10;&#10;            stairs = [sunday, monday, tuesday, wednesday, thursday, friday, saturday]&#10;            self.assertEqual(task.stairs_in_20(stairs), 54636040)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382449000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -297,7 +297,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Regex Count Lowercase Letters" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684008" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -321,10 +321,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_lowercase_count(self):&#10;        try:&#10;            self.assertEqual(task.lowercase_count(&quot;abc&quot;), 3)&#10;            self.assertEqual(task.lowercase_count(&quot;abcABC123&quot;), 3)&#10;            self.assertEqual(task.lowercase_count(&quot;abcABC123!@#$%^&amp;*()_-+=}{[]|\':;?/&gt;.&lt;,~&quot;), 3)&#10;            self.assertEqual(task.lowercase_count(&quot;&quot;), 0)&#10;            self.assertEqual(task.lowercase_count(&quot;abcABC123!@#$%^&amp;*()_-+=}{[]|\':;?/&gt;.&lt;,~&quot;), 0)&#10;            self.assertEqual(task.lowercase_count(&quot;abcdefghijklmnopqrstuvwxyz&quot;), 26)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382450000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -342,7 +342,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="SUPERSIZE ME... or rather, this integer!" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684009" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -366,10 +366,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_super_size(self):&#10;        try:&#10;            self.assertEqual(task.super_size(69), 96)&#10;            self.assertEqual(task.super_size(513), 531)&#10;            self.assertEqual(task.super_size(2017), 7210)&#10;            self.assertEqual(task.super_size(414), 441)&#10;            self.assertEqual(task.super_size(608719), 987610)&#10;            self.assertEqual(task.super_size(123456789), 987654321)&#10;            self.assertEqual(task.super_size(700000000001), 710000000000)&#10;            self.assertEqual(task.super_size(666666), 666666)&#10;            self.assertEqual(task.super_size(2), 2)&#10;            self.assertEqual(task.super_size(0), 0)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382451000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -387,7 +387,7 @@
                       <option name="index" value="8" />
                       <option name="name" value="Simple Validation of a Username with Regex" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684010" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -411,10 +411,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_validate_usr(self):&#10;        try:&#10;            self.assertEqual(task.validate_usr('asddsa'), True)&#10;            self.assertEqual(task.validate_usr('a'), False)&#10;            self.assertEqual(task.validate_usr('Hass'), False)&#10;            self.assertEqual(task.validate_usr(&quot;Hasd_12assssssasasasasasaasasasasas&quot;), False)&#10;            self.assertEqual(task.validate_usr(&quot;&quot;), False)&#10;            self.assertEqual(task.validate_usr(&quot;____&quot;), True)&#10;            self.assertEqual(task.validate_usr(&quot;&quot;), False)&#10;            self.assertEqual(task.validate_usr(&quot;p1pp1&quot;), True)&#10;            self.assertEqual(task.validate_usr(&quot;&quot;), False)&#10;            self.assertEqual(task.validate_usr(&quot;asd43_34&quot;), True)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382452000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -432,7 +432,7 @@
                       <option name="index" value="9" />
                       <option name="name" value="Unicode Total" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684011" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -456,22 +456,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_uni_total(self):&#10;        try:&#10;            self.assertEqual(task.uni_total(&quot;a&quot;), 97)&#10;            self.assertEqual(task.uni_total(&quot;b&quot;), 98)&#10;            self.assertEqual(task.uni_total(&quot;c&quot;), 99)&#10;            self.assertEqual(task.uni_total(&quot;&quot;), 0)&#10;            self.assertEqual(task.uni_total(&quot;aaa&quot;), 291)&#10;            self.assertEqual(task.uni_total(&quot;abc&quot;), 294)&#10;            self.assertEqual(task.uni_total(&quot;Mary Had A Little Lamb&quot;), 1873)&#10;            self.assertEqual(task.uni_total(&quot;Mary had a little lamb&quot;), 2001)&#10;            self.assertEqual(task.uni_total(&quot;CodeWars rocks&quot;), 1370)&#10;            self.assertEqual(task.uni_total(&quot;And so does Strive&quot;), 1661)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382452000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195554" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222662" />
                 <option name="index" value="2" />
                 <option name="name" value="7 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382453000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -490,7 +490,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Binary Representation of an Integer" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684012" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -514,10 +514,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_showBits(self):&#10;        try:&#10;            self.assertEqual(task.showBits(701), [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1])&#10;            self.assertEqual(task.showBits(-245), [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1])&#10;            self.assertEqual(task.showBits(12336), [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0])&#10;            self.assertEqual(task.showBits(1), [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1])&#10;            self.assertEqual(task.showBits(-1), [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382454000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -535,7 +535,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Coloured Triangles" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684013" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -559,10 +559,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_triangle(self):&#10;        try:&#10;            self.assertEqual(task.triangle('GB'), 'R')&#10;            self.assertEqual(task.triangle('RRR'), 'R')&#10;            self.assertEqual(task.triangle('RGBG'), 'B')&#10;            self.assertEqual(task.triangle('RBRGBRB'), 'G')&#10;            self.assertEqual(task.triangle('RBRGBRBGGRRRBGBBBGG'), 'G')&#10;            self.assertEqual(task.triangle('B'), 'B')&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382455000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -580,7 +580,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Complementary DNA" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684014" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -604,10 +604,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_DNS_strand(self):&#10;        try:&#10;            self.assertEqual(task.DNS_strand(&quot;AAAA&quot;), &quot;TTTT&quot;)&#10;            self.assertEqual(task.DNS_strand(&quot;ATTGC&quot;), &quot;TAACG&quot;)&#10;            self.assertEqual(task.DNS_strand(&quot;GTAT&quot;), &quot;CATA&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382456000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -625,7 +625,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Descending Order" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684015" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -649,10 +649,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_Descending_Order(self):&#10;        try:&#10;            self.assertEqual(task.Descending_Order(0), 0)&#10;            self.assertEqual(task.Descending_Order(15), 51)&#10;            self.assertEqual(task.Descending_Order(123456789), 987654321)&#10;            self.assertEqual(task.Descending_Order(6483), 8643)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382457000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -670,7 +670,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Exes and Ohs" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684016" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -694,10 +694,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_xo(self):&#10;        try:&#10;            self.assertEqual(task.xo('xo'), True)&#10;            self.assertEqual(task.xo('xo0'), True)&#10;            self.assertEqual(task.xo('xxxoo'), False)&#10;            self.assertEqual(task.xo('xxoooooooooooooo'), False)&#10;            self.assertEqual(task.xo(''), True)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382458000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -715,7 +715,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Get the Middle Character" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684017" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -739,10 +739,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_get_middle(self):&#10;        try:&#10;            self.assertEqual(task.get_middle(&quot;test&quot;), &quot;es&quot;)&#10;            self.assertEqual(task.get_middle(&quot;testing&quot;), &quot;t&quot;)&#10;            self.assertEqual(task.get_middle(&quot;middle&quot;), &quot;dd&quot;)&#10;            self.assertEqual(task.get_middle(&quot;A&quot;), &quot;A&quot;)&#10;            self.assertEqual(task.get_middle(&quot;of&quot;), &quot;of&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382458000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -760,7 +760,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="Highest and Lowest" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684018" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -784,10 +784,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_high_and_low(self):&#10;        try:&#10;            self.assertEqual(task.high_and_low(&quot;4 5 29 54 4 0 -214 542 -64 1 -3 6 -6&quot;), &quot;542 -214&quot;)&#10;            self.assertEqual(task.high_and_low(&quot;17 52 81 5 32 -64&quot;), &quot;81 -64&quot;)&#10;            self.assertEqual(task.high_and_low(&quot;12 17 4&quot;), &quot;4 17&quot;)&#10;            self.assertEqual(task.high_and_low(&quot;0 1 2 3 4 5 6 7 8 9&quot;), &quot;9 0&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382459000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -805,7 +805,7 @@
                       <option name="index" value="8" />
                       <option name="name" value="Mumbling" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684019" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -829,10 +829,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_accum(self):&#10;        try:&#10;            self.assertEqual(task.accum(&quot;ZpglnRxqenU&quot;), &quot;Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu&quot;)&#10;            self.assertEqual(task.accum(&quot;NyffsGeyylB&quot;), &quot;N-Yy-Fff-Ffff-Sssss-Gggggg-Eeeeeee-Yyyyyyyy-Yyyyyyyyy-Llllllllll-Bbbbbbbbbbb&quot;)&#10;            self.assertEqual(task.accum(&quot;MjtkuBovqrU&quot;), &quot;M-Jj-Ttt-Kkkk-Uuuuu-Bbbbbb-Ooooooo-Vvvvvvvv-Qqqqqqqqq-Rrrrrrrrrr-Uuuuuuuuuuu&quot;)&#10;            self.assertEqual(task.accum(&quot;EvidjUnokmM&quot;), &quot;E-Vv-Iii-Dddd-Jjjjj-Uuuuuu-Nnnnnnn-Oooooooo-Kkkkkkkkk-Mmmmmmmmmm-Mmmmmmmmmmm&quot;)&#10;            self.assertEqual(task.accum(&quot;HbideVbxncC&quot;), &quot;H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxxx-Nnnnnnnnn-Cccccccccc-Ccccccccccc&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382460000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -850,7 +850,7 @@
                       <option name="index" value="9" />
                       <option name="name" value="Ones and Zeros" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684020" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -874,10 +874,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_binary_array_to_number(self):&#10;        try:&#10;            self.assertEqual(task.binary_array_to_number([0, 0, 0, 1]), 1)&#10;            self.assertEqual(task.binary_array_to_number([0, 0, 1, 0]), 2)&#10;            self.assertEqual(task.binary_array_to_number([1, 1, 1, 1]), 15)&#10;            self.assertEqual(task.binary_array_to_number([0, 1, 1, 0]), 6)&#10;            self.assertEqual(task.binary_array_to_number([1, 1, 0, 0, 1, 0, 1, 1, 0] ), 406)&#10;            self.assertEqual(task.binary_array_to_number([1, 1, 1, 0, 1, 1]), 59)&#10;            self.assertEqual(task.binary_array_to_number([1, 0, 0, 0, 0, 0, 1, 1, 1, 1]), 527)&#10;            self.assertEqual(task.binary_array_to_number([1, 1, 0, 0, 1, 0, 0, 1, 1]), 403)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382461000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -895,7 +895,7 @@
                       <option name="index" value="10" />
                       <option name="name" value="Shortest Word" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684021" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -919,10 +919,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_find_short(self):&#10;        try:&#10;            self.assertEqual(task.find_short(&quot;bitcoin take over the world maybe who knows perhaps&quot;), 3)&#10;            self.assertEqual(task.find_short(&quot;turns out random test cases are easier than writing out basic ones&quot;), 3)&#10;            self.assertEqual(task.find_short(&quot;lets talk about javascript the best language&quot;), 3)&#10;            self.assertEqual(task.find_short(&quot;i want to travel the world writing code one day&quot;), 1)&#10;            self.assertEqual(task.find_short(&quot;Lets all go on holiday somewhere very cold&quot;), 2)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382462000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -940,7 +940,7 @@
                       <option name="index" value="11" />
                       <option name="name" value="Sort Array By String Length" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684022" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -964,10 +964,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_sort_by_length(self):&#10;        try:&#10;            self.assertEqual(task.sort_by_length([&quot;beg&quot;, &quot;life&quot;, &quot;i&quot;, &quot;to&quot;]), [&quot;i&quot;, &quot;to&quot;, &quot;beg&quot;, &quot;life&quot;])&#10;            self.assertEqual(task.sort_by_length([&quot;&quot;, &quot;moderately&quot;, &quot;brains&quot;, &quot;pizza&quot;]), [&quot;&quot;, &quot;pizza&quot;, &quot;brains&quot;, &quot;moderately&quot;])&#10;            self.assertEqual(task.sort_by_length([&quot;longer&quot;, &quot;longest&quot;, &quot;short&quot;]), [&quot;short&quot;, &quot;longer&quot;, &quot;longest&quot;])&#10;            self.assertEqual(task.sort_by_length([&quot;dog&quot;, &quot;food&quot;, &quot;a&quot;, &quot;of&quot;]), [&quot;a&quot;, &quot;of&quot;, &quot;dog&quot;, &quot;food&quot;])&#10;            self.assertEqual(task.sort_by_length([&quot;&quot;, &quot;dictionary&quot;, &quot;eloquent&quot;, &quot;bees&quot;]), [&quot;&quot;, &quot;bees&quot;, &quot;eloquent&quot;, &quot;dictionary&quot;])&#10;            self.assertEqual(task.sort_by_length([&quot;a longer sentence&quot;, &quot;the longest sentence&quot;, &quot;a short sentence&quot;]), [&quot;a short sentence&quot;, &quot;a longer sentence&quot;, &quot;the longest sentence&quot;])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382463000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -985,7 +985,7 @@
                       <option name="index" value="12" />
                       <option name="name" value="Vowel Count" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684023" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1009,22 +1009,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_getCount(self):&#10;        try:&#10;            self.assertEqual(task.getCount(&quot;abracadabra&quot;), 5)&#10;            self.assertEqual(task.getCount(&quot;aeiou&quot;), 5)&#10;            self.assertEqual(task.getCount(&quot;a&quot;), 1)&#10;            self.assertEqual(task.getCount(&quot;&quot;), 0)&#10;            self.assertEqual(task.getCount(&quot;hkjlm&quot;), 0)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382464000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195555" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222663" />
                 <option name="index" value="3" />
                 <option name="name" value="6 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382473000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -1043,7 +1043,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Count the Smiley Faces" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684024" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1067,10 +1067,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_count_smileys(self):&#10;        try:&#10;            self.assertEqual(task.count_smileys([':D',':~)',';~D',':)']), 4)&#10;            self.assertEqual(task.count_smileys([':)',':(',':D',':O',':;']), 2)&#10;            self.assertEqual(task.count_smileys([';]', ':[', ';*', ':$', ';-D']), 1)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382466000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1088,7 +1088,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Duplicate Encoder" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684025" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1112,10 +1112,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_duplicate_encode(self):&#10;        try:&#10;            self.assertEqual(task.duplicate_encode(&quot;din&quot;), &quot;(((&quot;)&#10;            self.assertEqual(task.duplicate_encode(&quot;recede&quot;), &quot;()()()&quot;)&#10;            self.assertEqual(task.duplicate_encode(&quot;Success&quot;), &quot;)())())&quot;)  # Should not be case sensitive&#10;            self.assertEqual(task.duplicate_encode(&quot;(( @&quot;), &quot;))((&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382467000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1133,7 +1133,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Salesman's Travel" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684026" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1157,10 +1157,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_travel(self):&#10;        try:&#10;            ad = (&quot;123 Main Street St. Louisville OH 43071,432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432,&quot;&#10;                  &quot;54 Holy Grail Street Niagara Town ZP 32908,3200 Main Rd. Bern AE 56210,1 Gordon St. Atlanta RE 13000,&quot;&#10;                  &quot;10 Pussy Cat Rd. Chicago EX 34342,10 Gordon St. Atlanta RE 13000,58 Gordon Road Atlanta RE 13000,&quot;&#10;                  &quot;22 Tokyo Av. Tedmondville SW 43098,674 Paris bd. Abbeville AA 45521,10 Surta Alley Goodtown GG 30654,&quot;&#10;                  &quot;45 Holy Grail Al. Niagara Town ZP 32908,320 Main Al. Bern AE 56210,14 Gordon Park Atlanta RE 13000,&quot;&#10;                  &quot;100 Pussy Cat Rd. Chicago EX 34342,2 Gordon St. Atlanta RE 13000,5 Gordon Road Atlanta RE 13000,&quot;&#10;                  &quot;2200 Tokyo Av. Tedmondville SW 43098,67 Paris St. Abbeville AA 45521,11 Surta Avenue Goodtown GG 30654,&quot;&#10;                  &quot;45 Holy Grail Al. Niagara Town ZP 32918,320 Main Al. Bern AE 56215,14 Gordon Park Atlanta RE 13200,&quot;&#10;                  &quot;100 Pussy Cat Rd. Chicago EX 34345,2 Gordon St. Atlanta RE 13222,5 Gordon Road Atlanta RE 13001,&quot;&#10;                  &quot;2200 Tokyo Av. Tedmondville SW 43198,67 Paris St. Abbeville AA 45522,11 Surta Avenue Goodville GG 30655,&quot;&#10;                  &quot;2222 Tokyo Av. Tedmondville SW 43198,670 Paris St. Abbeville AA 45522,114 Surta Avenue Goodville GG 30655,&quot;&#10;                  &quot;2 Holy Grail Street Niagara Town ZP 32908,3 Main Rd. Bern AE 56210,77 Gordon St. Atlanta RE 13000&quot;)&#10;&#10;            code = (&quot;OH 43071,NY 56432,ZP 32908,AE 56210,RE 13000,EX 34342,SW 43098,AA 45521,GG 30654,ZP 32908,AE 56215,RE 13200,EX 34345,&quot;&#10;                    &quot;RE 13222,RE 13001,SW 43198,AA 45522,GG 30655,XX 32321,YY 45098&quot;)&#10;&#10;            self.assertEqual(task.travel(ad, &quot;AA 45522&quot;), &quot;AA 45522:Paris St. Abbeville,Paris St. Abbeville/67,670&quot;)&#10;            self.assertEqual(task.travel(ad, &quot;EX 34342&quot;), &quot;EX 34342:Pussy Cat Rd. Chicago,Pussy Cat Rd. Chicago/10,100&quot;)&#10;            self.assertEqual(task.travel(ad, &quot;EX 34345&quot;), &quot;EX 34345:Pussy Cat Rd. Chicago/100&quot;)&#10;            self.assertEqual(task.travel(ad, &quot;AA 45521&quot;), &quot;AA 45521:Paris bd. Abbeville,Paris St. Abbeville/674,67&quot;)&#10;            self.assertEqual(task.travel(ad, &quot;AE 56215&quot;), &quot;AE 56215:Main Al. Bern/320&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382468000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1178,7 +1178,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="The U-n-KNOWN but known variables -  Multiplication" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684027" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1202,10 +1202,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_the_var(self):&#10;        try:&#10;            self.assertEqual(task.the_var('j*p'), 8)&#10;            self.assertEqual(task.the_var('o*l'), 2)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382468000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1223,7 +1223,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="#02 - Music Theory - Validate Rhythm" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684028" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1247,10 +1247,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_validate_rhythm(self):&#10;        try:&#10;            self.assertEqual(task.validate_rhythm([4,4], '4444|88888888|22|2488|1'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([5,2], '22222|2244244|8888244888844|112'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([3,8], '888|48|84'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([4, 4], '4444'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([5, 2], '22222'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([1, 4], '4'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([3, 8], '888'), 'Valid rhythm')&#10;            self.assertEqual(task.validate_rhythm([4, 4], '44|4444|884884|22|1|44'), 'Valid rhythm with anacrusis')&#10;            self.assertEqual(task.validate_rhythm([5, 2], '222|1144|41188|22'), 'Valid rhythm with anacrusis')&#10;            self.assertEqual(task.validate_rhythm([3, 8], '88|48|84|8'), 'Valid rhythm with anacrusis')&#10;            self.assertEqual(task.validate_rhythm([4, 4], '44|11|224|44'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([5, 2], '222|111|222222|22'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([3, 8], '8|8888|448|88'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([4, 4], '|11|224|4444'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([5, 2], '2288888244|111|222222|'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([3, 8], '|884|888|'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([4, 4], '444|22|1|244'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([5, 2], '111|222222|888'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([3, 8], '444|888|1'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([7, 3], '222|111|2222222|1112|2222'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([1, 3], '2|44|22'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([9, 9], '444448|2288'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([3, 3], '333|333|333'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([5, 7], '777|77777|77'), 'Invalid rhythm')&#10;            self.assertEqual(task.validate_rhythm([2, 6], '66|66|66|66|66'), 'Invalid rhythm')&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382469000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1268,7 +1268,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Chocolate Problem" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684029" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1292,10 +1292,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_chocolate(self):&#10;        try:&#10;            self.assertEqual(task.chocolate(5, [4, 3, 2, 5, 1], [1, 2, 5, 3, 4]), 3)&#10;            self.assertEqual(task.chocolate(2, [1, 2], [2, 1]), 1)&#10;            self.assertEqual(task.chocolate(3, [3, 1, 2], [2, 3, 1]), 1)&#10;            self.assertEqual(task.chocolate(3, [1, 3, 2], [1, 2, 3]), 2)&#10;            self.assertEqual(task.chocolate(3, [1, 2, 3], [3, 2, 1]), 2)&#10;            self.assertEqual(task.chocolate(4, [4, 3, 2, 1], [2, 1, 4, 3]), 1)&#10;            self.assertEqual(task.chocolate(5, [3, 5, 2, 1, 4], [4, 5, 2, 1, 3]), 2)&#10;            self.assertEqual(task.chocolate(6, [3, 6, 1, 5, 4, 2], [1, 5, 4, 2, 3, 6]), 1)&#10;            self.assertEqual(task.chocolate(6, [3, 6, 1, 5, 4, 2], [1, 4, 5, 3, 2, 6]), 5)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382470000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1313,7 +1313,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="Shuffle It Up II" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684030" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1337,10 +1337,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_fixed_points_perms(self):&#10;        try:&#10;            self.assertEqual(task.fixed_points_perms(4, 1), 8)&#10;            self.assertEqual(task.fixed_points_perms(4, 2), 6)&#10;            self.assertEqual(task.fixed_points_perms(4, 3), 0)&#10;            self.assertEqual(task.fixed_points_perms(10, 3), 222480)&#10;            self.assertEqual(task.fixed_points_perms(10, 4), 55650)&#10;            self.assertEqual(task.fixed_points_perms(20, 2), 447507315596451070)&#10;            self.assertEqual(task.fixed_points_perms(4, 0), 9)&#10;            self.assertEqual(task.fixed_points_perms(4, 4), 1)&#10;            self.assertEqual(task.fixed_points_perms(4, 5), 0)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382471000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1358,7 +1358,7 @@
                       <option name="index" value="8" />
                       <option name="name" value="Special Subsets of Primes" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684031" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1382,22 +1382,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_special_primes(self):&#10;        try:&#10;            self.assertEqual(task.special_primes(101), [[0, 0, 0], [0, 0, 0], [0, 0, 0]])&#10;            self.assertEqual(task.special_primes(200), [[0, 0, 0], [0, 0, 0], [0, 0, 0]])&#10;            self.assertEqual(task.special_primes(457),[[251, 439, 2], [349, 457, 4], [431, 431, 1]])&#10;            self.assertEqual(task.special_primes(500),[[251, 439, 2], [349, 479, 5], [431, 431, 1]])&#10;            self.assertEqual(task.special_primes(1000),[[251, 947, 11], [349, 479, 5], [431, 983, 4]])&#10;            self.assertEqual(task.special_primes(5000),[[251, 4987, 58], [349, 4789, 13], [431, 983, 4]])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382472000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195556" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222664" />
                 <option name="index" value="4" />
                 <option name="name" value="5 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382482000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -1416,7 +1416,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Valid Parenthesis" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684032" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1440,10 +1440,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_valid_parentheses(self):&#10;        try:&#10;            self.assertEqual(task.valid_parentheses(&quot;)test&quot;), False)&#10;            self.assertEqual(task.valid_parentheses(&quot;&quot;), True)&#10;            self.assertEqual(task.valid_parentheses(&quot;  (&quot;), False)&#10;            self.assertEqual(task.valid_parentheses(&quot;hi())(&quot;), False)&#10;            self.assertEqual(task.valid_parentheses(&quot;hi(hi)()&quot;), True)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382474000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1461,7 +1461,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Prime in Numbers" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684033" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1485,10 +1485,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_primeFactors(self):&#10;        try:&#10;            self.assertEqual(task.primeFactors(7775460), &quot;(2**2)(3**3)(5)(7)(11**2)(17)&quot;)&#10;            self.assertEqual(task.primeFactors(86240), &quot;(2**5)(5)(7**2)(11)&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382475000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1506,7 +1506,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Directions Reduction" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684034" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1530,10 +1530,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_dirReduc(self):&#10;        try:&#10;            self.assertEqual(task.dirReduc([&quot;NORTH&quot;, &quot;SOUTH&quot;, &quot;SOUTH&quot;, &quot;EAST&quot;, &quot;WEST&quot;, &quot;NORTH&quot;, &quot;WEST&quot;]), ['WEST'])&#10;            self.assertEqual(task.dirReduc([&quot;NORTH&quot;, &quot;WEST&quot;, &quot;SOUTH&quot;, &quot;EAST&quot;]), [&quot;NORTH&quot;, &quot;WEST&quot;, &quot;SOUTH&quot;, &quot;EAST&quot;])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382475000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1551,7 +1551,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Product of Consecutive Fib Numbers" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684035" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1575,10 +1575,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_productFib(self):&#10;        try:&#10;            self.assertEqual(task.productFib(4895), [55, 89, True])&#10;            self.assertEqual(task.productFib(5895), [89, 144, False])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382476000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1596,7 +1596,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Calculating With Functions" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684036" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1620,10 +1620,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_math(self):&#10;        try:&#10;            self.assertEqual(task.seven(task.times(task.five())), 35)&#10;            self.assertEqual(task.four(task.plus(task.nine())), 13)&#10;            self.assertEqual(task.eight(task.minus(task.three())), 5)&#10;            self.assertEqual(task.six(task.divided_by(task.two())), 3)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382477000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1641,7 +1641,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Sum of Pairs" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684037" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1665,10 +1665,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_sum_pairs(self):&#10;        try:&#10;            self.assertEqual(task.sum_pairs([1, 4, 8, 7, 3, 15], 8), [1, 7])&#10;            self.assertEqual(task.sum_pairs([1, -2, 3, 0, -6, 1], -6), [0, -6])&#10;            self.assertEqual(task.sum_pairs([20, -13, 40], -7), None)&#10;            self.assertEqual(task.sum_pairs([1, 2, 3, 4, 1, 0], 2), [1, 1])&#10;            self.assertEqual(task.sum_pairs([10, 5, 2, 3, 7, 5], 10), [3, 7])&#10;            self.assertEqual(task.sum_pairs([4, -2, 3, 3, 4], 8), [4, 4])&#10;            self.assertEqual(task.sum_pairs([0, 2, 0], 0), [0, 0])&#10;            self.assertEqual(task.sum_pairs([5, 9, 13, -3], 10), [13, -3])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382478000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1686,7 +1686,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="Weight for Weight" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684038" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1710,10 +1710,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_order_weight(self):&#10;        try:&#10;            self.assertEqual(task.order_weight(&quot;103 123 4444 99 2000&quot;), &quot;2000 103 123 4444 99&quot;)&#10;            self.assertEqual(task.order_weight(&quot;2000 10003 1234000 44444444 9999 11 11 22 123&quot;), &quot;11 11 2000 10003 22 123 1234000 44444444 9999&quot;)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382479000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1731,7 +1731,7 @@
                       <option name="index" value="8" />
                       <option name="name" value="Maximum Subarray Sum" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684039" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1755,10 +1755,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_maxSequence(self):&#10;        try:&#10;            self.assertEqual(task.maxSequence([]), 0)&#10;            self.assertEqual(task.maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]), 6)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382479000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1776,7 +1776,7 @@
                       <option name="index" value="9" />
                       <option name="name" value="Simple Pig Latin" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684040" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1800,22 +1800,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_pig_it(self):&#10;        try:&#10;            self.assertEqual(task.pig_it('Pig latin is cool'),'igPay atinlay siay oolcay')&#10;            self.assertEqual(task.pig_it('This is my string'),'hisTay siay ymay tringsay')&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382481000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195557" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222665" />
                 <option name="index" value="5" />
                 <option name="name" value="4 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382489000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -1834,7 +1834,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Path Finder #1 - Can You Reach the Exit" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684041" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1858,10 +1858,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;a = &quot;\n&quot;.join([&#10;  &quot;.W.&quot;,&#10;  &quot;.W.&quot;,&#10;  &quot;...&quot;&#10;])&#10;&#10;b = &quot;\n&quot;.join([&#10;  &quot;.W.&quot;,&#10;  &quot;.W.&quot;,&#10;  &quot;W..&quot;&#10;])&#10;&#10;c = &quot;\n&quot;.join([&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;&#10;])&#10;&#10;d = &quot;\n&quot;.join([&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;.....W&quot;,&#10;  &quot;....W.&quot;&#10;])&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_path_finder(self):&#10;        try:&#10;            self.assertEqual(task.path_finder(a), True)&#10;            self.assertEqual(task.path_finder(b), False)&#10;            self.assertEqual(task.path_finder(c), True)&#10;            self.assertEqual(task.path_finder(d), False)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382483000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1879,7 +1879,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Path Finder #2 - Shortest Path" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684042" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1903,10 +1903,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;a = &quot;\n&quot;.join([&#10;  &quot;.W.&quot;,&#10;  &quot;.W.&quot;,&#10;  &quot;...&quot;&#10;])&#10;&#10;b = &quot;\n&quot;.join([&#10;  &quot;.W.&quot;,&#10;  &quot;.W.&quot;,&#10;  &quot;W..&quot;&#10;])&#10;&#10;c = &quot;\n&quot;.join([&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;&#10;])&#10;&#10;d = &quot;\n&quot;.join([&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;......&quot;,&#10;  &quot;.....W&quot;,&#10;  &quot;....W.&quot;&#10;])&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_path_finder(self):&#10;        try:&#10;            self.assertEqual(task.path_finder(a), 4)&#10;            self.assertEqual(task.path_finder(b), False)&#10;            self.assertEqual(task.path_finder(c), 10)&#10;            self.assertEqual(task.path_finder(d), False)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382483000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1924,7 +1924,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Path Finder #4 - Where Are You" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684043" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1948,10 +1948,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_i_am_here(self):&#10;        try:&#10;            self.assertEqual(task.i_am_here(''), [0, 0])&#10;            self.assertEqual(task.i_am_here('RLrl'), [0, 0])&#10;            self.assertEqual(task.i_am_here('r5L2l4'), [4, 3])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382484000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -1969,7 +1969,7 @@
                       <option name="index" value="4" />
                       <option name="name" value="Bribe the Guards of the Crown Jewels" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684044" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -1993,10 +1993,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_least_bribes(self):&#10;        try:&#10;            self.assertEqual(task.least_bribes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 26)&#10;            self.assertEqual(task.least_bribes([1, 2, 3, 4, 5]), 9)&#10;            self.assertEqual(task.least_bribes([5, 1, 2, 4, 3]), 8)&#10;            self.assertEqual(task.least_bribes([3, 2, 5, 4, 1]), 10)&#10;            self.assertEqual(task.least_bribes([r * 53 + q for m in range(1, 51) for q, r in (divmod(m, 7),)]), 663) # 50 Rooms&#10;            self.assertEqual(task.least_bribes([r * 53 + q for m in range(1, 101) for q, r in (divmod(m, 7),)]), 702) # 100 Rooms&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382485000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -2014,7 +2014,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Total Increasing or Decreasing Numbers up to a Power of 10" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684045" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2038,10 +2038,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_total_inc_dec(self):&#10;        try:&#10;            self.assertEqual(task.total_inc_dec(0), 1)&#10;            self.assertEqual(task.total_inc_dec(1), 10)&#10;            self.assertEqual(task.total_inc_dec(2), 100)&#10;            self.assertEqual(task.total_inc_dec(3), 475)&#10;            self.assertEqual(task.total_inc_dec(4), 1675)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382486000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -2059,7 +2059,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Insane Increasing or Decreasing Numbers" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684046" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2083,10 +2083,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_insane_inc_or_dec(self):&#10;        try:&#10;            self.assertEqual(task.insane_inc_or_dec(1), 9)&#10;            self.assertEqual(task.insane_inc_or_dec(2), 99)&#10;            self.assertEqual(task.insane_inc_or_dec(3), 474)&#10;            self.assertEqual(task.insane_inc_or_dec(4), 1674)&#10;            self.assertEqual(task.insane_inc_or_dec(5), 4953)&#10;            self.assertEqual(task.insane_inc_or_dec(6), 12951)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382487000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -2104,7 +2104,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="Count Squares in the Chess Board" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684047" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2128,22 +2128,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;a = [&#10;    [1,1],&#10;    [1,1]&#10;]&#10;&#10;b = [&#10;    [0,1],&#10;    [1,1]&#10;]&#10;&#10;c = [&#10;    [1,1,1],&#10;    [1,1,1],&#10;    [1,1,1]&#10;]&#10;&#10;d = [&#10;    [1,1,1],&#10;    [1,0,1],&#10;    [1,1,1]&#10;]&#10;&#10;el = [&#10;    [0,1,1,1,1],&#10;    [1,1,1,1,1],&#10;    [1,1,1,1,1],&#10;    [0,1,1,0,1],&#10;    [1,1,1,1,1]&#10;]&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_count(self):&#10;        try:&#10;            self.assertEqual(task.count(a), {2: 1})&#10;            self.assertEqual(task.count(b), {})&#10;            self.assertEqual(task.count(c), {2: 4, 3: 1})&#10;            self.assertEqual(task.count(d), {})&#10;            self.assertEqual(task.count(el), {3: 2, 2: 9})&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382488000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195558" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222666" />
                 <option name="index" value="6" />
                 <option name="name" value="3 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382492000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -2162,7 +2162,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Path Finder #3 - The Alpinist" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684048" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2186,10 +2186,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;a = &quot;\n&quot;.join([&#10;    &quot;000&quot;,&#10;    &quot;000&quot;,&#10;    &quot;000&quot;&#10;])&#10;&#10;b = &quot;\n&quot;.join([&#10;    &quot;010&quot;,&#10;    &quot;010&quot;,&#10;    &quot;010&quot;&#10;])&#10;&#10;c = &quot;\n&quot;.join([&#10;    &quot;010&quot;,&#10;    &quot;101&quot;,&#10;    &quot;010&quot;&#10;])&#10;&#10;d = &quot;\n&quot;.join([&#10;    &quot;0707&quot;,&#10;    &quot;7070&quot;,&#10;    &quot;0707&quot;,&#10;    &quot;7070&quot;&#10;])&#10;&#10;el = &quot;\n&quot;.join([&#10;    &quot;700000&quot;,&#10;    &quot;077770&quot;,&#10;    &quot;077770&quot;,&#10;    &quot;077770&quot;,&#10;    &quot;077770&quot;,&#10;    &quot;000007&quot;&#10;])&#10;&#10;f = &quot;\n&quot;.join([&#10;    &quot;777000&quot;,&#10;    &quot;007000&quot;,&#10;    &quot;007000&quot;,&#10;    &quot;007000&quot;,&#10;    &quot;007000&quot;,&#10;    &quot;007777&quot;&#10;])&#10;&#10;g = &quot;\n&quot;.join([&#10;    &quot;000000&quot;,&#10;    &quot;000000&quot;,&#10;    &quot;000000&quot;,&#10;    &quot;000010&quot;,&#10;    &quot;000109&quot;,&#10;    &quot;001010&quot;&#10;])&#10;&#10;&#10;class Test(unittest.TestCase):&#10;&#10;    def test_path_finder(self):&#10;        try:&#10;            self.assertEqual(task.path_finder(a), 0)&#10;            self.assertEqual(task.path_finder(b), 2)&#10;            self.assertEqual(task.path_finder(c), 4)&#10;            self.assertEqual(task.path_finder(d), 42)&#10;            self.assertEqual(task.path_finder(el), 14)&#10;            self.assertEqual(task.path_finder(f), 0)&#10;            self.assertEqual(task.path_finder(g), 4)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382490000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -2207,7 +2207,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="The Boolean Order" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684049" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2231,10 +2231,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_solve(self):&#10;        try:&#10;            self.assertEqual(task.solve(&quot;tft&quot;,&quot;^&amp;&quot;), 2)&#10;            self.assertEqual(task.solve(&quot;ttftff&quot;,&quot;|&amp;^&amp;&amp;&quot;), 16)&#10;            self.assertEqual(task.solve(&quot;ttftfftf&quot;,&quot;|&amp;^&amp;&amp;||&quot;), 339)&#10;            self.assertEqual(task.solve(&quot;ttftfftft&quot;,&quot;|&amp;^&amp;&amp;||^&quot;), 851)&#10;            self.assertEqual(task.solve(&quot;ttftfftftf&quot;,&quot;|&amp;^&amp;&amp;||^&amp;&quot;), 2434)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;&#10;&#10;Test.it(&quot;Basic tests&quot;)&#10;Test.assert_equals(solve(),2)&#10;Test.assert_equals(solve(),16)&#10;Test.assert_equals(solve(),339)&#10;Test.assert_equals(solve(),851)&#10;Test.assert_equals(solve(),2434)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382490000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -2252,7 +2252,7 @@
                       <option name="index" value="3" />
                       <option name="name" value="Alphabetic Anagrams" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684050" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2276,22 +2276,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_listPosition(self):&#10;        try:&#10;            self.assertEqual(task.listPosition('A'), 1)&#10;            self.assertEqual(task.listPosition('ABAB'), 2)&#10;            self.assertEqual(task.listPosition('AAAB'), 1)&#10;            self.assertEqual(task.listPosition('BAAA'), 4)&#10;            self.assertEqual(task.listPosition('QUESTION'), 24572)&#10;            self.assertEqual(task.listPosition('BOOKKEEPER'), 10743)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382491000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195559" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222667" />
                 <option name="index" value="7" />
                 <option name="name" value="2 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382495000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -2310,7 +2310,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Blane is a Pain" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684051" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2334,10 +2334,10 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;TRACK_EX = &quot;&quot;&quot;\&#10;                                /------------\\&#10;/-------------\\                /             |&#10;|             |               /              S&#10;|             |              /               |&#10;|        /----+--------------+------\\        |   &#10;\\       /     |              |      |        |     &#10; \\      |     \\              |      |        |                    &#10; |      |      \\-------------+------+--------+---\\&#10; |      |                    |      |        |   |&#10; \\------+--------------------+------/        /   |&#10;        |                    |              /    | &#10;        \\------S-------------+-------------/     |&#10;                             |                   |&#10;/-------------\\              |                   |&#10;|             |              |             /-----+----\\&#10;|             |              |             |     |     \\&#10;\\-------------+--------------+-----S-------+-----/      \\&#10;              |              |             |             \\&#10;              |              |             |             |&#10;              |              \\-------------+-------------/&#10;              |                            |               &#10;              \\----------------------------/ &#10;&quot;&quot;&quot;&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_train_crash(self):&#10;        try:&#10;            self.assertEqual(task.train_crash(TRACK_EX, &quot;Aaaa&quot;, 147, &quot;Bbbbbbbbbbb&quot;, 288, 1000), 516)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382493000" />
                     </EduTask>
                     <EduTask>
                       <option name="additionalFiles">
@@ -2355,7 +2355,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="The Position of a Digital String in a Infinite Digital String" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684052" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2379,22 +2379,22 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_find_position(self):&#10;        try:&#10;            self.assertEqual(task.find_position(&quot;456&quot;), 3)&#10;            self.assertEqual(task.find_position(&quot;454&quot;), 79)&#10;            self.assertEqual(task.find_position(&quot;455&quot;), 98)&#10;            self.assertEqual(task.find_position(&quot;910&quot;), 8)&#10;            self.assertEqual(task.find_position(&quot;9100&quot;), 188)&#10;            self.assertEqual(task.find_position(&quot;99100&quot;), 187)&#10;            self.assertEqual(task.find_position(&quot;00101&quot;), 190)&#10;            self.assertEqual(task.find_position(&quot;001&quot;), 190)&#10;            self.assertEqual(task.find_position(&quot;00&quot;), 190)&#10;            self.assertEqual(task.find_position(&quot;123456789&quot;), 0)&#10;            self.assertEqual(task.find_position(&quot;1234567891&quot;), 0)&#10;            self.assertEqual(task.find_position(&quot;123456798&quot;), 1000000071)&#10;            self.assertEqual(task.find_position(&quot;10&quot;), 9)&#10;            self.assertEqual(task.find_position(&quot;53635&quot;), 13034)&#10;            self.assertEqual(task.find_position(&quot;040&quot;), 1091)&#10;            self.assertEqual(task.find_position(&quot;11&quot;), 11)&#10;            self.assertEqual(task.find_position(&quot;99&quot;), 168)&#10;            self.assertEqual(task.find_position(&quot;667&quot;), 122)&#10;            self.assertEqual(task.find_position(&quot;0404&quot;), 15050)&#10;            self.assertEqual(task.find_position(&quot;949225100&quot;), 382689688)&#10;            self.assertEqual(task.find_position(&quot;58257860625&quot;), 24674951477)&#10;            self.assertEqual(task.find_position(&quot;3999589058124&quot;), 6957586376885)&#10;            self.assertEqual(task.find_position(&quot;555899959741198&quot;), 1686722738828503)&#10;            self.assertEqual(task.find_position(&quot;01&quot;), 10)&#10;            self.assertEqual(task.find_position(&quot;091&quot;), 170)&#10;            self.assertEqual(task.find_position(&quot;0910&quot;), 2927)&#10;            self.assertEqual(task.find_position(&quot;0991&quot;), 2617)&#10;            self.assertEqual(task.find_position(&quot;09910&quot;), 2617)&#10;            self.assertEqual(task.find_position(&quot;09991&quot;), 35286)&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382494000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195560" />
               </Lesson>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="222668" />
                 <option name="index" value="8" />
                 <option name="name" value="1 Kyu" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1555382494000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -2413,7 +2413,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Four Pass Transport" />
                       <option name="status" value="Failed" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="684053" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="taskFiles">
                         <map>
@@ -2437,14 +2437,14 @@
                       </option>
                       <option name="testsText">
                         <map>
-                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                          <entry key="tests.py" value="from test_helper import run_common_tests, passed&#10;from exception_helper import handle_exception&#10;import unittest&#10;import task&#10;&#10;&#10;class Test(unittest.TestCase):&#10;    def test_four_pass(self):&#10;        try:&#10;            self.assertEqual(task.four_pass([1,69,95,70]), [1,2,3,4,5,6,7,8,9,19,29,39,49,59,69,79,78,77,76,75,85,95,94,93,92,91,81,71,70])&#10;            self.assertEqual(task.four_pass([0,49,40,99]), [0,1,2,3,4,5,6,7,8,9,19,29,39,49,48,47,46,45,44,43,42,41,40,50,51,52,53,54,55,56,57,58,59,69,79,89,99])&#10;            self.assertEqual(task.four_pass([37,61,92,36]), [37,27,26,25,24,23,22,21,31,41,51,61,71,81,91,92,93,94,95,96,86,76,66,56,46,36])&#10;            self.assertEqual(task.four_pass([51,24,75,57]), [51,41,42,43,44,34,24,25,35,45,55,65,75,76,77,67,57])&#10;            self.assertEqual(task.four_pass([92,59,88,11]), [92,93,94,95,96,97,98,99,89,79,69,59,58,68,78,88,87,77,67,57,47,37,27,17,16,15,14,13,12,11])&#10;        except Exception as e:&#10;            handle_exception(e)&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    suite = unittest.TestLoader().loadTestsFromTestCase(Test)&#10;    unittest.TextTestRunner(verbosity=2).run(suite)&#10;" />
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1555382496000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="195561" />
               </Lesson>
             </list>
           </option>

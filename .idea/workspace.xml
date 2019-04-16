@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be31f871-7038-497c-a161-72ed65606835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Calculating With Functions/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Calculating With Functions/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Calculating With Functions/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Directions Reduction/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Directions Reduction/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Directions Reduction/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Maximum Subarray Sum/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Maximum Subarray Sum/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Maximum Subarray Sum/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Product of Consecutive Fib Numbers/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Product of Consecutive Fib Numbers/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Product of Consecutive Fib Numbers/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Simple Pig Latin/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Simple Pig Latin/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Simple Pig Latin/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Sum of Pairs/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Sum of Pairs/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Sum of Pairs/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Weight for Weight/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Weight for Weight/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5 Kyu/Weight for Weight/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,21 +19,35 @@
             <state>
               <EduEditorState>
                 <MainEditorState relative-caret-position="34">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </MainEditorState>
               </EduEditorState>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5 Kyu/Simple Pig Latin/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instructions.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -91,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4 Kyu/Bribe the Guards of the Crown Jewels/task.html" />
         <option value="$PROJECT_DIR$/4 Kyu/Bribe the Guards of the Crown Jewels/tests.py" />
         <option value="$PROJECT_DIR$/4 Kyu/Total Increasing or Decreasing Numbers up to a Power of 10/task.html" />
         <option value="$PROJECT_DIR$/4 Kyu/Total Increasing or Decreasing Numbers up to a Power of 10/tests.py" />
@@ -142,6 +134,7 @@
         <option value="$PROJECT_DIR$/5 Kyu/Simple Pig Latin/task.html" />
         <option value="$PROJECT_DIR$/5 Kyu/Simple Pig Latin/task.py" />
         <option value="$PROJECT_DIR$/5 Kyu/Simple Pig Latin/tests.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,17 +169,6 @@
             <path>
               <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
               <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
-            </path>
-            <path>
-              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
-              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
-              <item name="5 Kyu" type="e994c609:CCLessonNode" />
-            </path>
-            <path>
-              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
-              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
-              <item name="5 Kyu" type="e994c609:CCLessonNode" />
-              <item name="Simple Pig Latin" type="83e62b93:CCTaskNode" />
             </path>
           </expand>
           <select />
@@ -378,27 +360,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4 Kyu/Total Increasing or Decreasing Numbers up to a Power of 10/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4 Kyu/Insane Increasing or Decreasing Numbers/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="106" selection-start-line="1" selection-start-column="106" selection-end-line="1" selection-end-column="106" />
-          <folding>
-            <element signature="e#1203#1207#0" expanded="true" />
-            <element signature="e#1220#1224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4 Kyu/Insane Increasing or Decreasing Numbers/task.py">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -959,7 +920,7 @@
         <state>
           <EduEditorState>
             <MainEditorState relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -968,10 +929,20 @@
     <entry file="file://$PROJECT_DIR$/5 Kyu/Simple Pig Latin/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instructions.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
         </state>
       </provider>
     </entry>
