@@ -1,0 +1,2 @@
+def xo(s):
+    return

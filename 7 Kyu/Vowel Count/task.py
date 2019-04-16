@@ -1,0 +1,2 @@
+def getCount(inputStr):
+    return
