@@ -1,0 +1,56 @@
+<html>
+From <a href="https://www.codewars.com/kata/special-subsets-of-primes/train/python">CodeWars</a>
+<div class="markdown" id="description"><p>A programmer that loves creating algorithms for security is doing a previous investigation of a special set of primes. Specially, he has to define ranges of values and to have the total number of the required primes.</p>
+<p>These primes should fulfill the following requirements:</p>
+<ul>
+<li><p>The primes should have at least 3 digits.</p>
+</li>
+<li><p>The primes can not include the digit 0.</p>
+</li>
+<li><p>The sum of the digits should be a multiple of a perfect square number. (<strong>Note:</strong> even though 1 is a perfect square, <strong>do not</strong> consider it for obvious reasons)</p>
+</li>
+<li><p>The product of the first digit by the last one cannot be 45, or in other words, if 5 is the first digit, the last one cannot be 9.</p>
+</li>
+<li><p>The primes' digits should occur only once. Examples of this kind of primes are: <code>167, 359</code>. Cases like <code>113</code> and <code>331</code> have to be discarded because digits 1 and 3 that appear twice respectively.</p>
+</li>
+</ul>
+<p>Once he has these special primes, that fulfill the constraints listed above, he has to classify them in three subsets: bouncy, increasing and decreasing primes.
+The increasing primes are the ones that have their digits in increasing order, for example : <code>157, 359, 569</code>. </p>
+<p>The decreasing ones, on the other hand, have their digits in decreasing order, for example: <code>761, 953, 971</code>.</p>
+<p>Finally, the bouncy primes are the ones that does not belong to any of both previous subsets: neither increasing nor decreasing ones, for example: <code>173, 193, 317</code>.</p>
+<h2 id="your-task">Your Task</h2>
+<p><em>Do you want to have the results of this investigation and accept the challenge? If your answer is affirmative, continue reading.</em></p>
+<p>Your function will accept an integer higher than 100 (and lower than 50000) as an upper bound of the range to work in, so all these special primes should be lower or equal to the given value of <code>n</code>.</p>
+<p>The function should output a list of lists with the data in this order:</p>
+<pre><code>[ [data for _bouncy_ primes], [data for _increasing_ primes], [data for _decreasing_ primes] ]</code></pre><p>The data required for each subset should be as follows:</p>
+<pre><code>[ min. prime found, max. prime found, number of primes in range ]</code></pre><h2 id="examples">Examples</h2>
+<p>Let's see some examples for some values of n:</p>
+<pre><code>special_primes(101) --&gt; [[0, 0, 0], [0, 0, 0], [0, 0, 0]]</code></pre><p>No special primes at this value (obviously).</p>
+<pre><code>special_primes(200) --&gt; [[0, 0, 0], [0, 0, 0], [0, 0, 0]]</code></pre><p>Still no special primes.</p>
+<pre><code>special_primes(457) --&gt; [[251, 439, 2], [349, 457, 4], [431, 431, 1]]</code></pre><p>Now we have some values:</p>
+<ul>
+<li>bouncy primes: <code>251, 439</code> (2 in total)</li>
+<li>increasing primes: <code>349, 367, 389, 457</code> (4)</li>
+<li>decreasing primes: <code>431</code> (1)</li>
+</ul>
+<pre><code>special_primes(1000) --&gt; [[251, 947, 11], [349, 479, 5], [431, 983, 4]]</code></pre><ul>
+<li>bouncy primes: <code>251, 439, 547, 587, 619, 659, 673, 691, 839, 857, 947</code> (11)</li>
+<li>increasing primes: <code>349, 367, 389, 457, 479</code> (5)</li>
+<li>decreasing primes: <code>431, 521, 853, 983</code> (4)</li>
+</ul>
+<p>Good Luck and happy coding!</p>
+<hr>
+<p>Items the programmer has to think after the investigation:</p>
+<ul>
+<li><p>The highest possible prime, with these constraints, is <strong>____</strong>.</p>
+</li>
+<li><p>The larger subset of prime is <strong>___</strong>.</p>
+</li>
+<li><p>The smallest subset of primes is <strong>___</strong>.</p>
+</li>
+<li><p>The sum of the digits of these special primes are always multiples of the perfect squares: <strong><strong>__</strong></strong></p>
+</li>
+</ul>
+<p>If your code passed you have these answers!!</p>
+</div>
+</html>

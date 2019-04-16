@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be31f871-7038-497c-a161-72ed65606835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1 Kyu/Four Pass Transport/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1 Kyu/Four Pass Transport/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1 Kyu/Four Pass Transport/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Kyu/Blane is a Pain/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Kyu/Blane is a Pain/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Kyu/Blane is a Pain/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 Kyu/Alphabetic Anagrams/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 Kyu/Alphabetic Anagrams/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 Kyu/Alphabetic Anagrams/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 Kyu/The Boolean Order/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 Kyu/The Boolean Order/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3 Kyu/The Boolean Order/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Bribe the Guards of the Crown Jewels/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Bribe the Guards of the Crown Jewels/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Bribe the Guards of the Crown Jewels/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Insane Increasing or Decreasing Numbers/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Insane Increasing or Decreasing Numbers/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Insane Increasing or Decreasing Numbers/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #1 - Can You Reach the Exit/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #1 - Can You Reach the Exit/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #1 - Can You Reach the Exit/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #2 - Shortest Path/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #2 - Shortest Path/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #2 - Shortest Path/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #4 - Where Are You/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #4 - Where Are You/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Path Finder #4 - Where Are You/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Total Increasing or Decreasing Numbers up to a Power of 10/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Total Increasing or Decreasing Numbers up to a Power of 10/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4 Kyu/Total Increasing or Decreasing Numbers up to a Power of 10/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Chocolate Problem/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Chocolate Problem/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Chocolate Problem/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Node Mania/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Node Mania/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Node Mania/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Shuffle It Up II/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Shuffle It Up II/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Shuffle It Up II/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -50,25 +32,55 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/task.py">
+        <entry file="file://$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.py">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="34">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                <MainEditorState relative-caret-position="17">
+                  <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
                 </MainEditorState>
               </EduEditorState>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/tests.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+              <folding>
+                <element signature="e#2519#2523#0" expanded="true" />
+                <element signature="e#2655#2659#0" expanded="true" />
+                <element signature="e#2771#2775#0" expanded="true" />
+                <element signature="e#3083#3087#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6 Kyu/Node Mania/task.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
+              <folding>
+                <element signature="e#441#445#0" expanded="true" />
+                <element signature="e#449#453#0" expanded="true" />
+                <element signature="e#457#461#0" expanded="true" />
+                <element signature="e#796#800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,26 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/7 Kyu/Ones and Zeros/task.html" />
-        <option value="$PROJECT_DIR$/7 Kyu/Shortest Word/task.html" />
-        <option value="$PROJECT_DIR$/7 Kyu/Sort Array By String Length/task.html" />
-        <option value="$PROJECT_DIR$/7 Kyu/Vowel Count/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Check the Exam/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Dollars and Cents/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Double Char/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Filter Out the Geese/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/How Many Stairs Will Suzuki Climb in 20 Years/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Regex Count Lowercase Letters/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/SUPERSIZE ME... or rather, this integer!/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Simple Validation of a Username with Regex/task.html" />
-        <option value="$PROJECT_DIR$/8 Kyu/Unicode Total/task.html" />
-        <option value="$PROJECT_DIR$/1 Kyu/Four Pass Transport/task.html" />
-        <option value="$PROJECT_DIR$/1 Kyu/Four Pass Transport/task.py" />
-        <option value="$PROJECT_DIR$/1 Kyu/Four Pass Transport/tests.py" />
-        <option value="$PROJECT_DIR$/1 Kyu/Multisize Nanogram Solver/task.html" />
-        <option value="$PROJECT_DIR$/1 Kyu/Multisize Nanogram Solver/task.py" />
-        <option value="$PROJECT_DIR$/1 Kyu/Multisize Nanogram Solver/tests.py" />
-        <option value="$PROJECT_DIR$/2 Kyu/Blane is a Pain/task.html" />
         <option value="$PROJECT_DIR$/2 Kyu/Blane is a Pain/tests.py" />
         <option value="$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/task.html" />
         <option value="$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/task.py" />
@@ -156,6 +148,26 @@
         <option value="$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/task.html" />
         <option value="$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/task.py" />
         <option value="$PROJECT_DIR$/4 Kyu/Count Squares in the Chess Board/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/task.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Double Even Magic Square/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/task.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Chocolate Problem/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/Chocolate Problem/task.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Chocolate Problem/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/A Combinatorial Way to Get Products and Sums of an Array/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/A Combinatorial Way to Get Products and Sums of an Array/task.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/A Combinatorial Way to Get Products and Sums of an Array/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Shuffle It Up II/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/Shuffle It Up II/task.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Shuffle It Up II/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.html" />
+        <option value="$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/tests.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.py" />
+        <option value="$PROJECT_DIR$/6 Kyu/Node Mania/task.html" />
       </list>
     </option>
   </component>
@@ -194,13 +206,19 @@
             <path>
               <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
               <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
-              <item name="4 Kyu" type="e994c609:CCLessonNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
             </path>
             <path>
               <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
               <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
-              <item name="4 Kyu" type="e994c609:CCLessonNode" />
-              <item name="Count Squares in the Chess Board" type="83e62b93:CCTaskNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Special Subsets of Primes" type="83e62b93:CCTaskNode" />
+            </path>
+            <path>
+              <item name="pycharm-edu-codewars" type="a264ea2a:RootNode" />
+              <item name="pycharm-edu-codewars" type="ef639090:CCCourseNode" />
+              <item name="6 Kyu" type="e994c609:CCLessonNode" />
+              <item name="Node Mania" type="83e62b93:CCTaskNode" />
             </path>
           </expand>
           <select />
@@ -388,259 +406,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Task" order="3" weight="0.45546666" />
+      <window_info anchor="right" id="Task" order="3" weight="0.2864" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8 Kyu/Dollars and Cents/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/Double Char/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/Filter Out the Geese/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/How Many Stairs Will Suzuki Climb in 20 Years/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/Regex Count Lowercase Letters/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/Unicode Total/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/Simple Validation of a Username with Regex/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8 Kyu/SUPERSIZE ME... or rather, this integer!/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1 Kyu/Four Pass Transport/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#2;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#3;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#2;n#div#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1 Kyu/Four Pass Transport/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1 Kyu/Four Pass Transport/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="17">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1 Kyu/Multisize Nanogram Solver/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#pre#1;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#3;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#5;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5660#5664#0" expanded="true" />
-            <element signature="e#5697#5701#0" expanded="true" />
-            <element signature="e#5735#5739#0" expanded="true" />
-            <element signature="e#5772#5776#0" expanded="true" />
-            <element signature="e#5807#5811#0" expanded="true" />
-            <element signature="e#5845#5849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1 Kyu/Multisize Nanogram Solver/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1 Kyu/Multisize Nanogram Solver/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2 Kyu/Blane is a Pain/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="261" column="6" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
-          <folding>
-            <element signature="e#55#105#0" expanded="true" />
-            <element signature="e#165#171#0" expanded="true" />
-            <element signature="e#247#267#0" expanded="true" />
-            <element signature="e#392#412#0" expanded="true" />
-            <element signature="e#887#907#0" expanded="true" />
-            <element signature="e#1166#1190#0" expanded="true" />
-            <element signature="e#1245#1269#0" expanded="true" />
-            <element signature="e#1310#1334#0" expanded="true" />
-            <element signature="e#1378#1402#0" expanded="true" />
-            <element signature="e#1467#1491#0" expanded="true" />
-            <element signature="e#1526#1550#0" expanded="true" />
-            <element signature="e#1594#1618#0" expanded="true" />
-            <element signature="e#1652#1676#0" expanded="true" />
-            <element signature="e#1751#1775#0" expanded="true" />
-            <element signature="e#1842#1866#0" expanded="true" />
-            <element signature="e#1950#1974#0" expanded="true" />
-            <element signature="e#2011#2035#0" expanded="true" />
-            <element signature="e#2101#2125#0" expanded="true" />
-            <element signature="e#2166#2190#0" expanded="true" />
-            <element signature="e#2347#2367#0" expanded="true" />
-            <element signature="e#2783#2803#0" expanded="true" />
-            <element signature="e#3053#3077#0" expanded="true" />
-            <element signature="e#3145#3169#0" expanded="true" />
-            <element signature="e#3210#3234#0" expanded="true" />
-            <element signature="e#3278#3302#0" expanded="true" />
-            <element signature="e#3361#3385#0" expanded="true" />
-            <element signature="e#3442#3466#0" expanded="true" />
-            <element signature="e#4056#4076#0" expanded="true" />
-            <element signature="e#4584#4604#0" expanded="true" />
-            <element signature="e#4898#4918#0" expanded="true" />
-            <element signature="e#5412#5432#0" expanded="true" />
-            <element signature="e#5797#5817#0" expanded="true" />
-            <element signature="e#6898#6918#0" expanded="true" />
-            <element signature="e#7016#7041#0" expanded="true" />
-            <element signature="e#7077#7101#0" expanded="true" />
-            <element signature="e#7176#7198#0" expanded="true" />
-            <element signature="e#7326#7350#0" expanded="true" />
-            <element signature="e#7389#7414#0" expanded="true" />
-            <element signature="e#7449#7473#0" expanded="true" />
-            <element signature="e#8576#8598#0" expanded="true" />
-            <element signature="e#8675#8692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2 Kyu/Blane is a Pain/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="128" selection-start-line="1" selection-start-column="128" selection-end-line="1" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/task.py">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="17">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2 Kyu/The Position of a Digital String in a Infinite Digital String/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3 Kyu/Path Finder #3 - The Alpinist/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="77" column="51" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4 Kyu/Path Finder #1 - Can You Reach the Exit/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4 Kyu/Path Finder #2 - Shortest Path/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3 Kyu/Path Finder #5 - There's Someone Here/task.py">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -929,6 +698,240 @@
           <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="105" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/The U-n-KNOWN but known variables -  Multiplication/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Double Even Magic Square/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Double Even Magic Square/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Double Even Magic Square/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="105" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+          <folding>
+            <element signature="e#556#560#0" expanded="true" />
+            <element signature="e#598#602#0" expanded="true" />
+            <element signature="e#637#641#0" expanded="true" />
+            <element signature="e#1053#1057#0" expanded="true" />
+            <element signature="e#1127#1131#0" expanded="true" />
+            <element signature="e#1202#1206#0" expanded="true" />
+            <element signature="e#1301#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/#02 - Music Theory - Validate Rhythm/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Chocolate Problem/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#pre#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2071#2075#0" expanded="true" />
+            <element signature="e#2635#2639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Chocolate Problem/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Chocolate Problem/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/A Combinatorial Way to Get Products and Sums of an Array/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="123" selection-start-line="1" selection-start-column="123" selection-end-line="1" selection-end-column="123" />
+          <folding>
+            <element signature="e#426#430#0" expanded="true" />
+            <element signature="e#443#447#0" expanded="true" />
+            <element signature="n#style#0;n#pre#1;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1860#1864#0" expanded="true" />
+            <element signature="e#1929#1933#0" expanded="true" />
+            <element signature="e#2000#2004#0" expanded="true" />
+            <element signature="n#style#0;n#pre#3;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3265#3269#0" expanded="true" />
+            <element signature="e#3355#3359#0" expanded="true" />
+            <element signature="e#3447#3451#0" expanded="true" />
+            <element signature="e#5868#5872#0" expanded="true" />
+            <element signature="n#style#0;n#pre#5;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/A Combinatorial Way to Get Products and Sums of an Array/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/A Combinatorial Way to Get Products and Sums of an Array/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Shuffle It Up II/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Shuffle It Up II/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Shuffle It Up II/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Special Subsets of Primes/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+          <folding>
+            <element signature="e#2519#2523#0" expanded="true" />
+            <element signature="e#2655#2659#0" expanded="true" />
+            <element signature="e#2771#2775#0" expanded="true" />
+            <element signature="e#3083#3087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6 Kyu/Node Mania/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
+          <folding>
+            <element signature="e#441#445#0" expanded="true" />
+            <element signature="e#449#453#0" expanded="true" />
+            <element signature="e#457#461#0" expanded="true" />
+            <element signature="e#796#800#0" expanded="true" />
           </folding>
         </state>
       </provider>

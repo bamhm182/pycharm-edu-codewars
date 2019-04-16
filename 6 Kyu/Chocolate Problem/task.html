@@ -1,0 +1,27 @@
+<html>
+From <a href="https://www.codewars.com/kata/chocolate-problem/train/python">CodeWars</a>
+<div class="markdown" id="description"><p>Chocolate factory produces unusual chocolate. Chocolate bars come in the form of <strong><em>long tiles 1 × N</em></strong>, which consists of N squares. Each square shows the portrait of one of the famous N confectioners of this company. Different chocolates have the same N confectioners' portraits, but in a different order.</p>
+<h1 id="task">Task</h1>
+<p>Write a method, that for a given order of portraits of two chocolate bars determines a minimum number of breaks, that you need to perform on a first bar to form a second bar by repositioning the broken parts.</p>
+<h1 id="restriction">Restriction</h1>
+<ul>
+<li>you can break a bar only on the boundaries of its' squares.</li>
+<li>you can’t flip initial bar or it's parts.</li>
+</ul>
+<h1 id="input-data">Input data</h1>
+<ul>
+<li>N - integer number (2 ≤ N ≤ 1000000), specifies the size of a chocolate bar, i.e. the number of squares in it. All bakers are numbered from 1 to N.</li>
+<li>firstBar, secondBar - integer arrays of N different numbers each (all the numbers don't exceed N) - portraits' order in the first and second bars respectively. It is known that these orders are different.</li>
+</ul>
+<p>Your task is to calculate a single number - the minimum number of breaks that you need to perform on a first bar, to form a second bar by repositioning the broken parts.</p>
+<p>Example:</p>
+<pre style="display: none;"><code class="language-java"><span class="hljs-keyword">int</span> N = <span class="hljs-number">5</span>;
+<span class="hljs-keyword">int</span> firstBar[]  = {<span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>};
+<span class="hljs-keyword">int</span> secondBar[] = {<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>};
+chocolate(N, firstBar, secondBar);   <span class="hljs-comment">// =&gt; returns 3</span></code></pre>
+<pre><code class="language-python">n = <span class="hljs-number">5</span>
+first_bar = [<span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>]
+second_bar = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>]
+chocolate(n, first_bar, second_bar)   <span class="hljs-comment"># =&gt; returns 3</span></code></pre>
+</div>
+</html>

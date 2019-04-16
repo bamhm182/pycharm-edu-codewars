@@ -1162,6 +1162,276 @@
                       </option>
                       <option name="updateDate" value="0" />
                     </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/the-u-n-known-but-known-variables-multiplication/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;This kata is definitely harder than the first one. See the last one here: &lt;a href=&quot;http://www.codewars.com/kata/the-unknown-but-known-variables-addition&quot; target=&quot;_blank&quot;&gt;http://www.codewars.com/kata/the-unknown-but-known-variables-addition&lt;/a&gt;&lt;/p&gt;&#10;&lt;p&gt;This one is a programming problem as well as a puzzle. And this is one of those annoying puzzles that is going to seem impossible, as the answer is not like a riddle, but something random some jerk over the internet came up with. But I have confidence you will solve it.&lt;/p&gt;&#10;&lt;p&gt;There will be a string input in this format:&#10;&lt;code&gt;'a*b'&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;2 lower-case letters (a-z) seperated by a '*'&lt;/p&gt;&#10;&lt;p&gt;Return the product of the two variables. The product will always be a positive integer or 0.&lt;/p&gt;&#10;&lt;p&gt;There is one correct answer for a pair of variables.&lt;/p&gt;&#10;&lt;p&gt;I know the answers, it is your task to find out.&lt;/p&gt;&#10;&lt;p&gt;Once you crack the code for a couple of the pairs, you should have the answer for the rest.&lt;/p&gt;&#10;&lt;p&gt;It is like when you were in school doing math and you saw &lt;code&gt;&quot;12 = c*b&quot;&lt;/code&gt; and you needed to find out what c and b were.&lt;/p&gt;&#10;&lt;p&gt;However you don't have a 12. You have an UnKNOWN there as well. Example:&lt;/p&gt;&#10;&lt;p&gt;X = a*b.&lt;/p&gt;&#10;&lt;p&gt;You don't know what X is, and you don't know what b is or a, but it is a puzzle and you will find out.&lt;/p&gt;&#10;&lt;p&gt;As part of this puzzle, there is two hints or clues on solving this. I won't tell you what the other one is. But the first is: &lt;code&gt;The key is in the title.&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;Given the input as a string - Return the product of the two variables as int.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="4" />
+                      <option name="name" value="The U-n-KNOWN but known variables -  Multiplication" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/number-02-music-theory-validate-rhythm/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Your task is to validate rhythm with a meter.&lt;/p&gt;&#10;&lt;hr&gt;&#10;&lt;p&gt;Rules:&lt;/p&gt;&#10;&lt;ol&gt;&#10;&lt;li&gt;&lt;p&gt;Rhythmic division requires that in one whole note (1) there are two half notes (2) or four quarter notes (4) or eight eighth notes (8). &lt;/p&gt;&#10;&lt;pre&gt;Examples: 1 = 2 + 2, 1 = 4 + 4 + 4 + 4 ...&#10;Note that: 2 = 4 + 4, 4 = 8 + 8, 2 = 8 + 8 + 4 ...&#10;&lt;/pre&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;Meter gives an information how many rhythmic types of notes should be in one bar. Bar is the the primary section of a musical score.&lt;/p&gt;&#10;&lt;pre&gt;Examples:&#10;       4/4 -&amp;gt; 4 quarter notes in a bar&#10;       5/2 -&amp;gt; 5 half notes in a bar&#10;       3/8 -&amp;gt; 3 eighth notes in a bar&#10;Note that:&#10;for 4/4 valid bars are: '4444', '88888888', '2488' ...&#10;for 5/2 valid bars are: '22222', '2244244', '8888244888844' ...&#10;for 3/8 valid bars are: '888', '48' ...&#10;&lt;/pre&gt;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;Anacrusis occurs when all bars but the first and last are valid, and the notes in the first and last bars when combined would also make a valid bar.&lt;/p&gt;&#10;&lt;pre&gt;Examples:&#10;for 4/4 valid anacrusis is -&amp;gt; 44|...|44 or 88|...|888888 or 2|...|488&#10;for 5/2 valid anacrusis is -&amp;gt; 22|...|222 or 222|...|22 or  2244|...|244&#10;for 3/8 valid anacrusis is -&amp;gt; 8|...|88 or 4|...|8 or 8|...|4&#10;Note:&#10;When anacrusis is valid but other bars in score are not -&amp;gt; return 'Invalid rhythm'&#10;&lt;/pre&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&lt;hr&gt;&#10;&lt;p&gt;Input:&lt;/p&gt;&#10;&lt;pre&gt;meter - array: eg. [4, 4],&#10;score - string, bars separated with '|': eg. '4444|8484842|888'&#10;&#10;Output:&#10;string message: 'Valid rhythm', 'Valid rhythm with anacrusis' or 'Invalid rhythm'&#10;&lt;/pre&gt;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="5" />
+                      <option name="name" value="#02 - Music Theory - Validate Rhythm" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/chocolate-problem/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;Chocolate factory produces unusual chocolate. Chocolate bars come in the form of &lt;strong&gt;&lt;em&gt;long tiles 1 × N&lt;/em&gt;&lt;/strong&gt;, which consists of N squares. Each square shows the portrait of one of the famous N confectioners of this company. Different chocolates have the same N confectioners' portraits, but in a different order.&lt;/p&gt;&#10;&lt;h1 id=&quot;task&quot;&gt;Task&lt;/h1&gt;&#10;&lt;p&gt;Write a method, that for a given order of portraits of two chocolate bars determines a minimum number of breaks, that you need to perform on a first bar to form a second bar by repositioning the broken parts.&lt;/p&gt;&#10;&lt;h1 id=&quot;restriction&quot;&gt;Restriction&lt;/h1&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;you can break a bar only on the boundaries of its' squares.&lt;/li&gt;&#10;&lt;li&gt;you can’t flip initial bar or it's parts.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;h1 id=&quot;input-data&quot;&gt;Input data&lt;/h1&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;N - integer number (2 ≤ N ≤ 1000000), specifies the size of a chocolate bar, i.e. the number of squares in it. All bakers are numbered from 1 to N.&lt;/li&gt;&#10;&lt;li&gt;firstBar, secondBar - integer arrays of N different numbers each (all the numbers don't exceed N) - portraits' order in the first and second bars respectively. It is known that these orders are different.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Your task is to calculate a single number - the minimum number of breaks that you need to perform on a first bar, to form a second bar by repositioning the broken parts.&lt;/p&gt;&#10;&lt;p&gt;Example:&lt;/p&gt;&#10;&lt;pre style=&quot;display: none;&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; N = &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;;&#10;&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; firstBar[]  = {&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;};&#10;&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; secondBar[] = {&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;};&#10;chocolate(N, firstBar, secondBar);   &lt;span class=&quot;hljs-comment&quot;&gt;// =&amp;gt; returns 3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;n = &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;&#10;first_bar = [&lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;]&#10;second_bar = [&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;4&lt;/span&gt;]&#10;chocolate(n, first_bar, second_bar)   &lt;span class=&quot;hljs-comment&quot;&gt;# =&amp;gt; returns 3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="6" />
+                      <option name="name" value="Chocolate Problem" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/shuffle-it-up-ii/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;We have an integer array with unique elements and we want to do the permutations that have an element fixed, in other words, these permutations should have a certain element at the same position than the original.&lt;/p&gt;&#10;&lt;p&gt;These permutations will be called: &lt;strong&gt;permutations with one fixed point&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;p&gt;Let's see an example with an array of four elements and we want the permutations that have a coincidence &lt;strong&gt;only at  index 0&lt;/strong&gt;, so these permutations are (the permutations between parenthesis):&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;arr = [1, 2, 3, 4]&#10;      (1, 3, 4, 2)&#10;      (1, 4, 2, 3)&#10;Two permutations matching with arr only at index 0&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Let's see the permutations of the same array with only one coincidence at index &lt;strong&gt;1&lt;/strong&gt;:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;arr = [1, 2, 3, 4]&#10;      (3, 2, 4, 1)&#10;      (4, 2, 1, 3)&#10;Two permutations matching with arr only at index 1&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Once again, let's see the permutations of the same array with only one coincidence at index &lt;strong&gt;2&lt;/strong&gt;:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;arr = [1, 2, 3, 4]&#10;      (2, 4, 3, 1)&#10;      (4, 1, 3, 2)&#10;Two permutations matching with arr only at index 2&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Finally, let's see the permutations of the same array with only one coincidence at index &lt;strong&gt;3&lt;/strong&gt;:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;arr = [1, 2, 3, 4]&#10;      (2, 3, 1, 4)&#10;      (3, 1, 2, 4)&#10;Two permutations matching with arr only at index 3&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For this array given above (arr) :&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;p&gt;We conclude that we have 8 permutations with one fixed point (two at each index of arr).&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;We may do the same development for our array, &lt;code&gt;arr&lt;/code&gt;, with two fixed points and we will get &lt;code&gt;6&lt;/code&gt; permutations.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;There are no permutations with coincidences only at three indexes.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;It's good to know that the amount of permutations with no coincidences at all are &lt;code&gt;9&lt;/code&gt;. See the kata &lt;a href=&quot;https://www.codewars.com/kata/shuffle-it-up&quot; target=&quot;_blank&quot;&gt;Shuffle It Up!!&lt;/a&gt;&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;In general:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;p&gt;When the amount of fixed points is equal to the array length, there is only one permutation, the original array.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;When the amount of fixed points surpasses the length of the array, obvously, there are no permutations at all.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Create a function that receives the length of the array and the number of fixed points and may output the total amount of permutations for these constraints.&lt;/p&gt;&#10;&lt;p&gt;Features of the random tests:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;length of the array = l&#10;number of fixed points = k&#10;10 ≤ k ≤ l ≤ 9000&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;See the example tests!&#10;Enjoy it!!&lt;/p&gt;&#10;&lt;p&gt;Ruby versin will be released soon.&lt;/p&gt;&#10;&lt;p&gt;#Note: This kata was published previously but in a version not well optimized.&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="7" />
+                      <option name="name" value="Shuffle It Up II" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/special-subsets-of-primes/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;A programmer that loves creating algorithms for security is doing a previous investigation of a special set of primes. Specially, he has to define ranges of values and to have the total number of the required primes.&lt;/p&gt;&#10;&lt;p&gt;These primes should fulfill the following requirements:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;p&gt;The primes should have at least 3 digits.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The primes can not include the digit 0.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The sum of the digits should be a multiple of a perfect square number. (&lt;strong&gt;Note:&lt;/strong&gt; even though 1 is a perfect square, &lt;strong&gt;do not&lt;/strong&gt; consider it for obvious reasons)&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The product of the first digit by the last one cannot be 45, or in other words, if 5 is the first digit, the last one cannot be 9.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The primes' digits should occur only once. Examples of this kind of primes are: &lt;code&gt;167, 359&lt;/code&gt;. Cases like &lt;code&gt;113&lt;/code&gt; and &lt;code&gt;331&lt;/code&gt; have to be discarded because digits 1 and 3 that appear twice respectively.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Once he has these special primes, that fulfill the constraints listed above, he has to classify them in three subsets: bouncy, increasing and decreasing primes.&#10;The increasing primes are the ones that have their digits in increasing order, for example : &lt;code&gt;157, 359, 569&lt;/code&gt;. &lt;/p&gt;&#10;&lt;p&gt;The decreasing ones, on the other hand, have their digits in decreasing order, for example: &lt;code&gt;761, 953, 971&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;Finally, the bouncy primes are the ones that does not belong to any of both previous subsets: neither increasing nor decreasing ones, for example: &lt;code&gt;173, 193, 317&lt;/code&gt;.&lt;/p&gt;&#10;&lt;h2 id=&quot;your-task&quot;&gt;Your Task&lt;/h2&gt;&#10;&lt;p&gt;&lt;em&gt;Do you want to have the results of this investigation and accept the challenge? If your answer is affirmative, continue reading.&lt;/em&gt;&lt;/p&gt;&#10;&lt;p&gt;Your function will accept an integer higher than 100 (and lower than 50000) as an upper bound of the range to work in, so all these special primes should be lower or equal to the given value of &lt;code&gt;n&lt;/code&gt;.&lt;/p&gt;&#10;&lt;p&gt;The function should output a list of lists with the data in this order:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;[ [data for _bouncy_ primes], [data for _increasing_ primes], [data for _decreasing_ primes] ]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The data required for each subset should be as follows:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;[ min. prime found, max. prime found, number of primes in range ]&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;examples&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;p&gt;Let's see some examples for some values of n:&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;special_primes(101) --&amp;gt; [[0, 0, 0], [0, 0, 0], [0, 0, 0]]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;No special primes at this value (obviously).&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;special_primes(200) --&amp;gt; [[0, 0, 0], [0, 0, 0], [0, 0, 0]]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Still no special primes.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code&gt;special_primes(457) --&amp;gt; [[251, 439, 2], [349, 457, 4], [431, 431, 1]]&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we have some values:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;bouncy primes: &lt;code&gt;251, 439&lt;/code&gt; (2 in total)&lt;/li&gt;&#10;&lt;li&gt;increasing primes: &lt;code&gt;349, 367, 389, 457&lt;/code&gt; (4)&lt;/li&gt;&#10;&lt;li&gt;decreasing primes: &lt;code&gt;431&lt;/code&gt; (1)&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;pre&gt;&lt;code&gt;special_primes(1000) --&amp;gt; [[251, 947, 11], [349, 479, 5], [431, 983, 4]]&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#10;&lt;li&gt;bouncy primes: &lt;code&gt;251, 439, 547, 587, 619, 659, 673, 691, 839, 857, 947&lt;/code&gt; (11)&lt;/li&gt;&#10;&lt;li&gt;increasing primes: &lt;code&gt;349, 367, 389, 457, 479&lt;/code&gt; (5)&lt;/li&gt;&#10;&lt;li&gt;decreasing primes: &lt;code&gt;431, 521, 853, 983&lt;/code&gt; (4)&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Good Luck and happy coding!&lt;/p&gt;&#10;&lt;hr&gt;&#10;&lt;p&gt;Items the programmer has to think after the investigation:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;p&gt;The highest possible prime, with these constraints, is &lt;strong&gt;____&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The larger subset of prime is &lt;strong&gt;___&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The smallest subset of primes is &lt;strong&gt;___&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;li&gt;&lt;p&gt;The sum of the digits of these special primes are always multiples of the perfect squares: &lt;strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;If your code passed you have these answers!!&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="8" />
+                      <option name="name" value="Special Subsets of Primes" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map />
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;From &lt;a href=&quot;https://www.codewars.com/kata/node-mania/train/python&quot;&gt;CodeWars&lt;/a&gt;&#10;&lt;div class=&quot;markdown&quot; id=&quot;description&quot;&gt;&lt;p&gt;This kata is about singly&#10;&lt;a href=&quot;http://en.wikipedia.org/wiki/Linked_list &quot; target=&quot;_blank&quot;&gt;linked list&lt;/a&gt;.  A linked list is an ordered set of data elements, each containing a link to its successor (and sometimes its predecessor, known as a double linked list).  You are you to implement an algorithm to find the kth to last element.&lt;/p&gt;&#10;&lt;p&gt;For example given a linked list of:&lt;/p&gt;&#10;&lt;p&gt;a -&amp;gt; b -&amp;gt; c -&amp;gt; d&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;if k is the number one then d should be returned&lt;/li&gt;&#10;&lt;li&gt;if k is the number two then c should be returned&lt;/li&gt;&#10;&lt;li&gt;if k is the number three then b should be returned&lt;/li&gt;&#10;&lt;li&gt;if k is the number four then a should be returned&lt;/li&gt;&#10;&lt;li&gt;if k exceeds the size of the list then None returned&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&#10;&lt;p&gt;Special Note --&amp;gt; Node classes contain two fields; data and next.&#10;And to access the head of the list, use head. e.g. linked_list.head&lt;/p&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="9" />
+                      <option name="name" value="Node Mania" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" value="# TODO: type solution here&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, get_answer_placeholders&#10;&#10;&#10;def test_answer_placeholders():&#10;    placeholders = get_answer_placeholders()&#10;    placeholder = placeholders[0]&#10;    if placeholder == &quot;&quot;:       # TODO: your condition here&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    # test_answer_placeholders()       # TODO: uncomment test call&#10;&#10;&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
                   </list>
                 </option>
                 <option name="unitId" value="0" />
